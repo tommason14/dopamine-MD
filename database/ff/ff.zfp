@@ -1,0 +1,1372 @@
+<?xml version="1.0" ?>
+<ForceFieldTerms>
+  <Setting lj_mixing_rule="geometric" scale_14_coulomb="0.5" scale_14_vdw="0.5" vdw_cutoff="1.2" vdw_long_range="correct"/>
+  <AtomTypes>
+    <AtomType charge="-0.17" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="C1" eqt_q_inc="C1" eqt_vdw="C1" mass="12.011" name="C1"/>
+    <AtomType charge="-0.17" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="C1A" eqt_q_inc="C1A" eqt_vdw="C1A" mass="12.011" name="C1A"/>
+    <AtomType charge="0.01" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="C2" eqt_q_inc="C2" eqt_vdw="C2" mass="12.011" name="C2"/>
+    <AtomType charge="-0.05" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="CE" eqt_q_inc="CE" eqt_vdw="CE" mass="12.011" name="CE"/>
+    <AtomType charge="-0.12" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="CS" eqt_q_inc="CS" eqt_vdw="CS" mass="12.011" name="CS"/>
+    <AtomType charge="-0.18" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="CT" eqt_q_inc="CT" eqt_vdw="CT" mass="12.011" name="CT"/>
+    <AtomType charge="-0.11" eqt_ang_c="CR" eqt_ang_s="CR" eqt_bond="CR" eqt_dih_c="CR" eqt_dih_s="CR" eqt_imp_c="CR" eqt_imp_s="CR" eqt_polar="CR" eqt_q_inc="CR" eqt_vdw="CR" mass="12.011" name="CR"/>
+    <AtomType charge="-0.13" eqt_ang_c="CW" eqt_ang_s="CW" eqt_bond="CW" eqt_dih_c="CW" eqt_dih_s="CW" eqt_imp_c="CW" eqt_imp_s="CW" eqt_polar="CW" eqt_q_inc="CW" eqt_vdw="CW" mass="12.011" name="CW"/>
+    <AtomType charge="0.21" eqt_ang_c="HA" eqt_ang_s="HA" eqt_bond="HA" eqt_dih_c="HA" eqt_dih_s="HA" eqt_imp_c="HA" eqt_imp_s="HA" eqt_polar="HCR" eqt_q_inc="HCR" eqt_vdw="HCR" mass="1.008" name="HCR"/>
+    <AtomType charge="0.21" eqt_ang_c="HA" eqt_ang_s="HA" eqt_bond="HA" eqt_dih_c="HA" eqt_dih_s="HA" eqt_imp_c="HA" eqt_imp_s="HA" eqt_polar="HCW" eqt_q_inc="HCW" eqt_vdw="HCW" mass="1.008" name="HCW"/>
+    <AtomType charge="0.06" eqt_ang_c="HC" eqt_ang_s="HC" eqt_bond="HC" eqt_dih_c="HC" eqt_dih_s="HC" eqt_imp_c="HC" eqt_imp_s="HC" eqt_polar="HC" eqt_q_inc="HC" eqt_vdw="HC" mass="1.008" name="HC"/>
+    <AtomType charge="0.06" eqt_ang_c="HC" eqt_ang_s="HC" eqt_bond="HC" eqt_dih_c="HC" eqt_dih_s="HC" eqt_imp_c="HC" eqt_imp_s="HC" eqt_polar="HCA" eqt_q_inc="HCA" eqt_vdw="HCA" mass="1.008" name="HCA"/>
+    <AtomType charge="0.13" eqt_ang_c="HC" eqt_ang_s="HC" eqt_bond="HC" eqt_dih_c="HC" eqt_dih_s="HC" eqt_imp_c="HC" eqt_imp_s="HC" eqt_polar="H1" eqt_q_inc="H1" eqt_vdw="H1" mass="1.008" name="H1"/>
+    <AtomType charge="0.15" eqt_ang_c="NA" eqt_ang_s="NA" eqt_bond="NA" eqt_dih_c="NA" eqt_dih_s="NA" eqt_imp_c="NA" eqt_imp_s="NA" eqt_polar="NA" eqt_q_inc="NA" eqt_vdw="NA" mass="14.007" name="NA"/>
+    <AtomType charge="0.0" eqt_ang_c="CR" eqt_ang_s="CR" eqt_bond="CR" eqt_dih_c="CR" eqt_dih_s="CR" eqt_imp_c="CR" eqt_imp_s="CR" eqt_polar="CRH" eqt_q_inc="CRH" eqt_vdw="CRH" mass="12.011" name="CRH"/>
+    <AtomType charge="-0.21" eqt_ang_c="NA" eqt_ang_s="NA" eqt_bond="NA" eqt_dih_c="NA" eqt_dih_s="NA" eqt_imp_c="NA" eqt_imp_s="NA" eqt_polar="NAH" eqt_q_inc="NAH" eqt_vdw="NAH" mass="14.007" name="NAH"/>
+    <AtomType charge="-0.03" eqt_ang_c="CW" eqt_ang_s="CW" eqt_bond="CW" eqt_dih_c="CW" eqt_dih_s="CW" eqt_imp_c="CW" eqt_imp_s="CW" eqt_polar="CWH" eqt_q_inc="CWH" eqt_vdw="CWH" mass="12.011" name="CWH"/>
+    <AtomType charge="0.37" eqt_ang_c="HA" eqt_ang_s="HA" eqt_bond="HA" eqt_dih_c="HA" eqt_dih_s="HA" eqt_imp_c="HA" eqt_imp_s="HA" eqt_polar="HNA" eqt_q_inc="HNA" eqt_vdw="HNA" mass="1.008" name="HNA"/>
+    <AtomType charge="0.19" eqt_ang_c="CR" eqt_ang_s="CR" eqt_bond="CR" eqt_dih_c="CR" eqt_dih_s="CR" eqt_imp_c="CR" eqt_imp_s="CR" eqt_polar="CRM" eqt_q_inc="CRM" eqt_vdw="CRM" mass="12.011" name="CRM"/>
+    <AtomType charge="0.04" eqt_ang_c="NA" eqt_ang_s="NA" eqt_bond="NA" eqt_dih_c="NA" eqt_dih_s="NA" eqt_imp_c="NA" eqt_imp_s="NA" eqt_polar="NAM" eqt_q_inc="NAM" eqt_vdw="NAM" mass="14.007" name="NAM"/>
+    <AtomType charge="-0.26" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="CCR" eqt_q_inc="CCR" eqt_vdw="CCR" mass="12.011" name="CCR"/>
+    <AtomType charge="-0.115" eqt_ang_c="CA" eqt_ang_s="CA" eqt_bond="CA" eqt_dih_c="CA" eqt_dih_s="CA" eqt_imp_c="CA" eqt_imp_s="CA" eqt_polar="CA" eqt_q_inc="CA" eqt_vdw="CA" mass="12.011" name="CA"/>
+    <AtomType charge="0.115" eqt_ang_c="HA" eqt_ang_s="HA" eqt_bond="HA" eqt_dih_c="HA" eqt_dih_s="HA" eqt_imp_c="HA" eqt_imp_s="HA" eqt_polar="HA" eqt_q_inc="HA" eqt_vdw="HA" mass="1.008" name="HA"/>
+    <AtomType charge="0.039" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="C1T" eqt_q_inc="C1T" eqt_vdw="C1T" mass="12.011" name="C1T"/>
+    <AtomType charge="-0.154" eqt_ang_c="CA" eqt_ang_s="CA" eqt_bond="CA" eqt_dih_c="CA" eqt_dih_s="CA" eqt_imp_c="CA" eqt_imp_s="CA" eqt_polar="CAP" eqt_q_inc="CAP" eqt_vdw="CAP" mass="12.011" name="CAP"/>
+    <AtomType charge="-0.145" eqt_ang_c="CA" eqt_ang_s="CA" eqt_bond="CA" eqt_dih_c="CA" eqt_dih_s="CA" eqt_imp_c="CA" eqt_imp_s="CA" eqt_polar="CAM" eqt_q_inc="CAM" eqt_vdw="CAM" mass="12.011" name="CAM"/>
+    <AtomType charge="-0.147" eqt_ang_c="CA" eqt_ang_s="CA" eqt_bond="CA" eqt_dih_c="CA" eqt_dih_s="CA" eqt_imp_c="CA" eqt_imp_s="CA" eqt_polar="CAO" eqt_q_inc="CAO" eqt_vdw="CAO" mass="12.011" name="CAO"/>
+    <AtomType charge="-0.081" eqt_ang_c="CA" eqt_ang_s="CA" eqt_bond="CA" eqt_dih_c="CA" eqt_dih_s="CA" eqt_imp_c="CA" eqt_imp_s="CA" eqt_polar="CAT" eqt_q_inc="CAT" eqt_vdw="CAT" mass="12.011" name="CAT"/>
+    <AtomType charge="0.148" eqt_ang_c="HA" eqt_ang_s="HA" eqt_bond="HA" eqt_dih_c="HA" eqt_dih_s="HA" eqt_imp_c="HA" eqt_imp_s="HA" eqt_polar="HAT" eqt_q_inc="HAT" eqt_vdw="HAT" mass="1.008" name="HAT"/>
+    <AtomType charge="0.092" eqt_ang_c="HC" eqt_ang_s="HC" eqt_bond="HC" eqt_dih_c="HC" eqt_dih_s="HC" eqt_imp_c="HC" eqt_imp_s="HC" eqt_polar="HT" eqt_q_inc="HT" eqt_vdw="HT" mass="1.008" name="HT"/>
+    <AtomType charge="0.15" eqt_ang_c="NA" eqt_ang_s="NA" eqt_bond="NA" eqt_dih_c="NA" eqt_dih_s="NA" eqt_imp_c="NA" eqt_imp_s="NA" eqt_polar="NAP" eqt_q_inc="NAP" eqt_vdw="NAP" mass="14.007" name="NAP"/>
+    <AtomType charge="0.0" eqt_ang_c="CA" eqt_ang_s="CA" eqt_bond="CA" eqt_dih_c="CA" eqt_dih_s="CA" eqt_imp_c="CA" eqt_imp_s="CA" eqt_polar="CAPO" eqt_q_inc="CAPO" eqt_vdw="CAPO" mass="12.011" name="CAPO"/>
+    <AtomType charge="-0.07" eqt_ang_c="CA" eqt_ang_s="CA" eqt_bond="CA" eqt_dih_c="CA" eqt_dih_s="CA" eqt_imp_c="CA" eqt_imp_s="CA" eqt_polar="CAPM" eqt_q_inc="CAPM" eqt_vdw="CAPM" mass="12.011" name="CAPM"/>
+    <AtomType charge="0.02" eqt_ang_c="CA" eqt_ang_s="CA" eqt_bond="CA" eqt_dih_c="CA" eqt_dih_s="CA" eqt_imp_c="CA" eqt_imp_s="CA" eqt_polar="CAPP" eqt_q_inc="CAPP" eqt_vdw="CAPP" mass="12.011" name="CAPP"/>
+    <AtomType charge="0.15" eqt_ang_c="HA" eqt_ang_s="HA" eqt_bond="HA" eqt_dih_c="HA" eqt_dih_s="HA" eqt_imp_c="HA" eqt_imp_s="HA" eqt_polar="HAP" eqt_q_inc="HAP" eqt_vdw="HAP" mass="1.008" name="HAP"/>
+    <AtomType charge="0.305" eqt_ang_c="NA" eqt_ang_s="NA" eqt_bond="NA" eqt_dih_c="NA" eqt_dih_s="NA" eqt_imp_c="NA" eqt_imp_s="NA" eqt_polar="NAQ" eqt_q_inc="NAQ" eqt_vdw="NAQ" mass="14.007" name="NAQ"/>
+    <AtomType charge="0.185" eqt_ang_c="CA" eqt_ang_s="CA" eqt_bond="CA" eqt_dih_c="CA" eqt_dih_s="CA" eqt_imp_c="CA" eqt_imp_s="CA" eqt_polar="CAQ" eqt_q_inc="CAQ" eqt_vdw="CAQ" mass="12.011" name="CAQ"/>
+    <AtomType charge="-0.05" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="C1H" eqt_q_inc="C1H" eqt_vdw="C1H" mass="12.011" name="C1H"/>
+    <AtomType charge="0.12" eqt_ang_c="CF" eqt_ang_s="CF" eqt_bond="CF" eqt_dih_c="CF" eqt_dih_s="CF" eqt_imp_c="CF" eqt_imp_s="CF" eqt_polar="CFH" eqt_q_inc="CFH" eqt_vdw="CFH" mass="12.011" name="CFH"/>
+    <AtomType charge="0.36" eqt_ang_c="CF" eqt_ang_s="CF" eqt_bond="CF" eqt_dih_c="CF" eqt_dih_s="CF" eqt_imp_c="CF" eqt_imp_s="CF" eqt_polar="CTF" eqt_q_inc="CTF" eqt_vdw="CTF" mass="12.011" name="CTF"/>
+    <AtomType charge="0.24" eqt_ang_c="CF" eqt_ang_s="CF" eqt_bond="CF" eqt_dih_c="CF" eqt_dih_s="CF" eqt_imp_c="CF" eqt_imp_s="CF" eqt_polar="CSF" eqt_q_inc="CSF" eqt_vdw="CSF" mass="12.011" name="CSF"/>
+    <AtomType charge="-0.12" eqt_ang_c="F" eqt_ang_s="F" eqt_bond="F" eqt_dih_c="F" eqt_dih_s="F" eqt_imp_c="F" eqt_imp_s="F" eqt_polar="F" eqt_q_inc="F" eqt_vdw="F" mass="18.998" name="F"/>
+    <AtomType charge="0.12" eqt_ang_c="NT" eqt_ang_s="NT" eqt_bond="NT" eqt_dih_c="NT" eqt_dih_s="NT" eqt_imp_c="NT" eqt_imp_s="NT" eqt_polar="N4" eqt_q_inc="N4" eqt_vdw="N4" mass="14.007" name="N4"/>
+    <AtomType charge="0.03" eqt_ang_c="NT" eqt_ang_s="NT" eqt_bond="NT" eqt_dih_c="NT" eqt_dih_s="NT" eqt_imp_c="NT" eqt_imp_s="NT" eqt_polar="N3" eqt_q_inc="N3" eqt_vdw="N3" mass="14.007" name="N3"/>
+    <AtomType charge="0.31" eqt_ang_c="HN" eqt_ang_s="HN" eqt_bond="HN" eqt_dih_c="HN" eqt_dih_s="HN" eqt_imp_c="HN" eqt_imp_s="HN" eqt_polar="H3" eqt_q_inc="H3" eqt_vdw="H3" mass="1.008" name="H3"/>
+    <AtomType charge="0.145" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="CTO" eqt_q_inc="CTO" eqt_vdw="CTO" mass="12.011" name="CTO"/>
+    <AtomType charge="0.04" eqt_ang_c="HC" eqt_ang_s="HC" eqt_bond="HC" eqt_dih_c="HC" eqt_dih_s="HC" eqt_imp_c="HC" eqt_imp_s="HC" eqt_polar="H1O" eqt_q_inc="H1O" eqt_vdw="H1O" mass="1.008" name="H1O"/>
+    <AtomType charge="-0.683" eqt_ang_c="OH" eqt_ang_s="OH" eqt_bond="OH" eqt_dih_c="OH" eqt_dih_s="OH" eqt_imp_c="OH" eqt_imp_s="OH" eqt_polar="OH" eqt_q_inc="OH" eqt_vdw="OH" mass="15.999" name="OH"/>
+    <AtomType charge="0.418" eqt_ang_c="HO" eqt_ang_s="HO" eqt_bond="HO" eqt_dih_c="HO" eqt_dih_s="HO" eqt_imp_c="HO" eqt_imp_s="HO" eqt_polar="HO" eqt_q_inc="HO" eqt_vdw="HO" mass="1.008" name="HO"/>
+    <AtomType charge="0.275" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="C2O" eqt_q_inc="C2O" eqt_vdw="C2O" mass="12.011" name="C2O"/>
+    <AtomType charge="0.275" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="COL" eqt_q_inc="COL" eqt_vdw="COL" mass="12.011" name="COL"/>
+    <AtomType charge="-0.94" eqt_ang_c="NG" eqt_ang_s="NG" eqt_bond="NG" eqt_dih_c="NG" eqt_dih_s="NG" eqt_imp_c="NG" eqt_imp_s="NG" eqt_polar="NG" eqt_q_inc="NG" eqt_vdw="NG" mass="14.007" name="NG"/>
+    <AtomType charge="1.06" eqt_ang_c="CG" eqt_ang_s="CG" eqt_bond="CG" eqt_dih_c="CG" eqt_dih_s="CG" eqt_imp_c="CG" eqt_imp_s="CG" eqt_polar="CG" eqt_q_inc="CG" eqt_vdw="CG" mass="12.011" name="CG"/>
+    <AtomType charge="0.46" eqt_ang_c="HG" eqt_ang_s="HG" eqt_bond="HG" eqt_dih_c="HG" eqt_dih_s="HG" eqt_imp_c="HG" eqt_imp_s="HG" eqt_polar="HG" eqt_q_inc="HG" eqt_vdw="HG" mass="1.008" name="HG"/>
+    <AtomType charge="0.68" eqt_ang_c="PT" eqt_ang_s="PT" eqt_bond="PT" eqt_dih_c="PT" eqt_dih_s="PT" eqt_imp_c="PT" eqt_imp_s="PT" eqt_polar="P3" eqt_q_inc="P3" eqt_vdw="P3" mass="30.974" name="P3"/>
+    <AtomType charge="-0.31" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="C1P" eqt_q_inc="C1P" eqt_vdw="C1P" mass="12.011" name="C1P"/>
+    <AtomType charge="1.0" eqt_ang_c="Li" eqt_ang_s="Li" eqt_bond="Li" eqt_dih_c="Li" eqt_dih_s="Li" eqt_imp_c="Li" eqt_imp_s="Li" eqt_polar="Li" eqt_q_inc="Li" eqt_vdw="Li" mass="6.941" name="Li"/>
+    <AtomType charge="1.0" eqt_ang_c="Na" eqt_ang_s="Na" eqt_bond="Na" eqt_dih_c="Na" eqt_dih_s="Na" eqt_imp_c="Na" eqt_imp_s="Na" eqt_polar="Na" eqt_q_inc="Na" eqt_vdw="Na" mass="22.99" name="Na"/>
+    <AtomType charge="0.96" eqt_ang_c="B" eqt_ang_s="B" eqt_bond="B" eqt_dih_c="B" eqt_dih_s="B" eqt_imp_c="B" eqt_imp_s="B" eqt_polar="B" eqt_q_inc="B" eqt_vdw="B" mass="10.811" name="B"/>
+    <AtomType charge="-0.49" eqt_ang_c="F" eqt_ang_s="F" eqt_bond="F" eqt_dih_c="F" eqt_dih_s="F" eqt_imp_c="F" eqt_imp_s="F" eqt_polar="FB" eqt_q_inc="FB" eqt_vdw="FB" mass="18.998" name="FB"/>
+    <AtomType charge="1.34" eqt_ang_c="P" eqt_ang_s="P" eqt_bond="P" eqt_dih_c="P" eqt_dih_s="P" eqt_imp_c="P" eqt_imp_s="P" eqt_polar="P" eqt_q_inc="P" eqt_vdw="P" mass="30.974" name="P"/>
+    <AtomType charge="-0.39" eqt_ang_c="F" eqt_ang_s="F" eqt_bond="F" eqt_dih_c="F" eqt_dih_s="F" eqt_imp_c="F" eqt_imp_s="F" eqt_polar="FP" eqt_q_inc="FP" eqt_vdw="FP" mass="18.998" name="FP"/>
+    <AtomType charge="-1.0" eqt_ang_c="Cl" eqt_ang_s="Cl" eqt_bond="Cl" eqt_dih_c="Cl" eqt_dih_s="Cl" eqt_imp_c="Cl" eqt_imp_s="Cl" eqt_polar="Cl" eqt_q_inc="Cl" eqt_vdw="Cl" mass="35.453" name="Cl"/>
+    <AtomType charge="-1.0" eqt_ang_c="Br" eqt_ang_s="Br" eqt_bond="Br" eqt_dih_c="Br" eqt_dih_s="Br" eqt_imp_c="Br" eqt_imp_s="Br" eqt_polar="Br" eqt_q_inc="Br" eqt_vdw="Br" mass="79.904" name="Br"/>
+    <AtomType charge="0.35" eqt_ang_c="CF" eqt_ang_s="CF" eqt_bond="CF" eqt_dih_c="CF" eqt_dih_s="CF" eqt_imp_c="CF" eqt_imp_s="CF" eqt_polar="CBT" eqt_q_inc="CBT" eqt_vdw="CBT" mass="12.011" name="CBT"/>
+    <AtomType charge="1.02" eqt_ang_c="SB" eqt_ang_s="SB" eqt_bond="SB" eqt_dih_c="SB" eqt_dih_s="SB" eqt_imp_c="SB" eqt_imp_s="SB" eqt_polar="SBT" eqt_q_inc="SBT" eqt_vdw="SBT" mass="32.066" name="SBT"/>
+    <AtomType charge="-0.66" eqt_ang_c="NB" eqt_ang_s="NB" eqt_bond="NB" eqt_dih_c="NB" eqt_dih_s="NB" eqt_imp_c="NB" eqt_imp_s="NB" eqt_polar="NBT" eqt_q_inc="NBT" eqt_vdw="NBT" mass="14.0" name="NBT"/>
+    <AtomType charge="-0.53" eqt_ang_c="OB" eqt_ang_s="OB" eqt_bond="OB" eqt_dih_c="OB" eqt_dih_s="OB" eqt_imp_c="OB" eqt_imp_s="OB" eqt_polar="OBT" eqt_q_inc="OBT" eqt_vdw="OBT" mass="15.999" name="OBT"/>
+    <AtomType charge="-0.16" eqt_ang_c="FB" eqt_ang_s="FB" eqt_bond="FB" eqt_dih_c="FB" eqt_dih_s="FB" eqt_imp_c="FB" eqt_imp_s="FB" eqt_polar="F1" eqt_q_inc="F1" eqt_vdw="F1" mass="18.998" name="F1"/>
+    <AtomType charge="-0.63" eqt_ang_c="OB" eqt_ang_s="OB" eqt_bond="OB" eqt_dih_c="OB" eqt_dih_s="OB" eqt_imp_c="OB" eqt_imp_s="OB" eqt_polar="OTF" eqt_q_inc="OTF" eqt_vdw="OTF" mass="15.999" name="OTF"/>
+    <AtomType charge="0.19" eqt_ang_c="CF" eqt_ang_s="CF" eqt_bond="CF" eqt_dih_c="CF" eqt_dih_s="CF" eqt_imp_c="CF" eqt_imp_s="CF" eqt_polar="C1F" eqt_q_inc="C1F" eqt_vdw="C1F" mass="12.011" name="C1F"/>
+    <AtomType charge="0.36" eqt_ang_c="CF" eqt_ang_s="CF" eqt_bond="CF" eqt_dih_c="CF" eqt_dih_s="CF" eqt_imp_c="CF" eqt_imp_s="CF" eqt_polar="CEF" eqt_q_inc="CEF" eqt_vdw="CEF" mass="12.011" name="CEF"/>
+    <AtomType charge="-0.13" eqt_ang_c="FB" eqt_ang_s="FB" eqt_bond="FB" eqt_dih_c="FB" eqt_dih_s="FB" eqt_imp_c="FB" eqt_imp_s="FB" eqt_polar="FSI" eqt_q_inc="FSI" eqt_vdw="FSI" mass="18.998" name="FSI"/>
+    <AtomType charge="-0.76" eqt_ang_c="N3" eqt_ang_s="N3" eqt_bond="N3" eqt_dih_c="N3" eqt_dih_s="N3" eqt_imp_c="N3" eqt_imp_s="N3" eqt_polar="N3A" eqt_q_inc="N3A" eqt_vdw="N3A" mass="14.0" name="N3A"/>
+    <AtomType charge="0.64" eqt_ang_c="CZ" eqt_ang_s="CZ" eqt_bond="CZ" eqt_dih_c="CZ" eqt_dih_s="CZ" eqt_imp_c="CZ" eqt_imp_s="CZ" eqt_polar="CZA" eqt_q_inc="CZA" eqt_vdw="CZA" mass="12.011" name="CZA"/>
+    <AtomType charge="-0.76" eqt_ang_c="NZ" eqt_ang_s="NZ" eqt_bond="NZ" eqt_dih_c="NZ" eqt_dih_s="NZ" eqt_imp_c="NZ" eqt_imp_s="NZ" eqt_polar="NZA" eqt_q_inc="NZA" eqt_vdw="NZA" mass="14.001" name="NZA"/>
+    <AtomType charge="-0.8" eqt_ang_c="O2" eqt_ang_s="O2" eqt_bond="O2" eqt_dih_c="O2" eqt_dih_s="O2" eqt_imp_c="O2" eqt_imp_s="O2" eqt_polar="O2" eqt_q_inc="O2" eqt_vdw="O2" mass="15.999" name="O2"/>
+    <AtomType charge="0.7" eqt_ang_c="CO" eqt_ang_s="CO" eqt_bond="CO" eqt_dih_c="CO" eqt_dih_s="CO" eqt_imp_c="CO" eqt_imp_s="CO" eqt_polar="CO2" eqt_q_inc="CO2" eqt_vdw="CO2" mass="12.011" name="CO2"/>
+    <AtomType charge="-0.28" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="CTA" eqt_q_inc="CTA" eqt_vdw="CTA" mass="12.011" name="CTA"/>
+    <AtomType charge="-0.75" eqt_ang_c="OC" eqt_ang_s="OC" eqt_bond="OC" eqt_dih_c="OC" eqt_dih_s="OC" eqt_imp_c="OC" eqt_imp_s="OC" eqt_polar="O2F" eqt_q_inc="O2F" eqt_vdw="O2F" mass="15.999" name="O2F"/>
+    <AtomType charge="0.4" eqt_ang_c="CF" eqt_ang_s="CF" eqt_bond="CF" eqt_dih_c="CF" eqt_dih_s="CF" eqt_imp_c="CF" eqt_imp_s="CF" eqt_polar="CFA" eqt_q_inc="CFA" eqt_vdw="CFA" mass="12.011" name="CFA"/>
+    <AtomType charge="-0.2" eqt_ang_c="F" eqt_ang_s="F" eqt_bond="F" eqt_dih_c="F" eqt_dih_s="F" eqt_imp_c="F" eqt_imp_s="F" eqt_polar="FFA" eqt_q_inc="FFA" eqt_vdw="FFA" mass="18.998" name="FFA"/>
+    <AtomType charge="1.18" eqt_ang_c="SO" eqt_ang_s="SO" eqt_bond="SO" eqt_dih_c="SO" eqt_dih_s="SO" eqt_imp_c="SO" eqt_imp_s="SO" eqt_polar="SO" eqt_q_inc="SO" eqt_vdw="SO" mass="32.066" name="SO"/>
+    <AtomType charge="-0.65" eqt_ang_c="OS" eqt_ang_s="OS" eqt_bond="OS" eqt_dih_c="OS" eqt_dih_s="OS" eqt_imp_c="OS" eqt_imp_s="OS" eqt_polar="OS4" eqt_q_inc="OS4" eqt_vdw="OS4" mass="15.999" name="OS4"/>
+    <AtomType charge="-0.45" eqt_ang_c="OC" eqt_ang_s="OC" eqt_bond="OC" eqt_dih_c="OC" eqt_dih_s="OC" eqt_imp_c="OC" eqt_imp_s="OC" eqt_polar="OC4" eqt_q_inc="OC4" eqt_vdw="OC4" mass="15.999" name="OC4"/>
+    <AtomType charge="0.22" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="CS4" eqt_q_inc="CS4" eqt_vdw="CS4" mass="12.011" name="CS4"/>
+    <AtomType charge="0.0" eqt_ang_c="HC" eqt_ang_s="HC" eqt_bond="HC" eqt_dih_c="HC" eqt_dih_s="HC" eqt_imp_c="HC" eqt_imp_s="HC" eqt_polar="HS4" eqt_q_inc="HS4" eqt_vdw="HS4" mass="1.008" name="HS4"/>
+    <AtomType charge="-0.68" eqt_ang_c="OS" eqt_ang_s="OS" eqt_bond="OS" eqt_dih_c="OS" eqt_dih_s="OS" eqt_imp_c="OS" eqt_imp_s="OS" eqt_polar="OS3" eqt_q_inc="OS3" eqt_vdw="OS3" mass="15.999" name="OS3"/>
+    <AtomType charge="-0.14" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="CS3" eqt_q_inc="CS3" eqt_vdw="CS3" mass="12.011" name="CS3"/>
+    <AtomType charge="0.0" eqt_ang_c="HC" eqt_ang_s="HC" eqt_bond="HC" eqt_dih_c="HC" eqt_dih_s="HC" eqt_imp_c="HC" eqt_imp_s="HC" eqt_polar="HS3" eqt_q_inc="HS3" eqt_vdw="HS3" mass="1.008" name="HS3"/>
+    <AtomType charge="-0.72" eqt_ang_c="SK" eqt_ang_s="SK" eqt_bond="SK" eqt_dih_c="SK" eqt_dih_s="SK" eqt_imp_c="SK" eqt_imp_s="SK" eqt_polar="SK" eqt_q_inc="SK" eqt_vdw="SK" mass="32.066" name="SK"/>
+    <AtomType charge="0.44" eqt_ang_c="CK" eqt_ang_s="CK" eqt_bond="CK" eqt_dih_c="CK" eqt_dih_s="CK" eqt_imp_c="CK" eqt_imp_s="CK" eqt_polar="CK" eqt_q_inc="CK" eqt_vdw="CK" mass="12.011" name="CK"/>
+    <AtomType charge="-0.72" eqt_ang_c="NK" eqt_ang_s="NK" eqt_bond="NK" eqt_dih_c="NK" eqt_dih_s="NK" eqt_imp_c="NK" eqt_imp_s="NK" eqt_polar="NK" eqt_q_inc="NK" eqt_vdw="NK" mass="14.001" name="NK"/>
+    <AtomType charge="-0.91" eqt_ang_c="C3A" eqt_ang_s="C3A" eqt_bond="C3A" eqt_dih_c="C3A" eqt_dih_s="C3A" eqt_imp_c="C3A" eqt_imp_s="C3A" eqt_polar="C3A" eqt_q_inc="C3A" eqt_vdw="C3A" mass="12.011" name="C3A"/>
+    <AtomType charge="0.655" eqt_ang_c="CN" eqt_ang_s="CN" eqt_bond="CN" eqt_dih_c="CN" eqt_dih_s="CN" eqt_imp_c="CN" eqt_imp_s="CN" eqt_polar="CN" eqt_q_inc="CN" eqt_vdw="CN" mass="12.011" name="CN"/>
+    <AtomType charge="-0.685" eqt_ang_c="NC" eqt_ang_s="NC" eqt_bond="NC" eqt_dih_c="NC" eqt_dih_s="NC" eqt_imp_c="NC" eqt_imp_s="NC" eqt_polar="NC" eqt_q_inc="NC" eqt_vdw="NC" mass="14.001" name="NC"/>
+    <AtomType charge="-0.14" eqt_ang_c="CA" eqt_ang_s="CA" eqt_bond="CA" eqt_dih_c="CA" eqt_dih_s="CA" eqt_imp_c="CA" eqt_imp_s="CA" eqt_polar="CAPS" eqt_q_inc="CAPS" eqt_vdw="CAPS" mass="12.011" name="CAPS"/>
+    <AtomType charge="0.0" eqt_ang_c="CA" eqt_ang_s="CA" eqt_bond="CA" eqt_dih_c="CA" eqt_dih_s="CA" eqt_imp_c="CA" eqt_imp_s="CA" eqt_polar="CAMS" eqt_q_inc="CAMS" eqt_vdw="CAMS" mass="12.011" name="CAMS"/>
+    <AtomType charge="-0.27" eqt_ang_c="CA" eqt_ang_s="CA" eqt_bond="CA" eqt_dih_c="CA" eqt_dih_s="CA" eqt_imp_c="CA" eqt_imp_s="CA" eqt_polar="CAOS" eqt_q_inc="CAOS" eqt_vdw="CAOS" mass="12.011" name="CAOS"/>
+    <AtomType charge="0.157" eqt_ang_c="CA" eqt_ang_s="CA" eqt_bond="CA" eqt_dih_c="CA" eqt_dih_s="CA" eqt_imp_c="CA" eqt_imp_s="CA" eqt_polar="CATS" eqt_q_inc="CATS" eqt_vdw="CATS" mass="12.011" name="CATS"/>
+    <AtomType charge="-0.197" eqt_ang_c="CT" eqt_ang_s="CT" eqt_bond="CT" eqt_dih_c="CT" eqt_dih_s="CT" eqt_imp_c="CT" eqt_imp_s="CT" eqt_polar="CTTS" eqt_q_inc="CTTS" eqt_vdw="CTTS" mass="12.011" name="CTTS"/>
+    <AtomType charge="0.1" eqt_ang_c="HA" eqt_ang_s="HA" eqt_bond="HA" eqt_dih_c="HA" eqt_dih_s="HA" eqt_imp_c="HA" eqt_imp_s="HA" eqt_polar="HATS" eqt_q_inc="HATS" eqt_vdw="HATS" mass="1.008" name="HATS"/>
+    <AtomType charge="0.06" eqt_ang_c="HC" eqt_ang_s="HC" eqt_bond="HC" eqt_dih_c="HC" eqt_dih_s="HC" eqt_imp_c="HC" eqt_imp_s="HC" eqt_polar="HTS" eqt_q_inc="HTS" eqt_vdw="HTS" mass="1.008" name="HTS"/>
+    <AtomType charge="-0.484654" eqt_ang_c="O00D" eqt_ang_s="O00D" eqt_bond="O00D" eqt_dih_c="O00D" eqt_dih_s="O00D" eqt_imp_c="O00D" eqt_imp_s="O00D" eqt_polar="O00D" eqt_q_inc="O00D" eqt_vdw="O00D" mass="15.999" name="O00D"/>
+    <AtomType charge="0.290251" eqt_ang_c="C01D" eqt_ang_s="C01D" eqt_bond="C01D" eqt_dih_c="C01D" eqt_dih_s="C01D" eqt_imp_c="C01D" eqt_imp_s="C01D" eqt_polar="C01D" eqt_q_inc="C01D" eqt_vdw="C01D" mass="12.011" name="C01D"/>
+    <AtomType charge="-0.505922" eqt_ang_c="C02D" eqt_ang_s="C02D" eqt_bond="C02D" eqt_dih_c="C02D" eqt_dih_s="C02D" eqt_imp_c="C02D" eqt_imp_s="C02D" eqt_polar="C02D" eqt_q_inc="C02D" eqt_vdw="C02D" mass="12.011" name="C02D"/>
+    <AtomType charge="0.229351" eqt_ang_c="C03D" eqt_ang_s="C03D" eqt_bond="C03D" eqt_dih_c="C03D" eqt_dih_s="C03D" eqt_imp_c="C03D" eqt_imp_s="C03D" eqt_polar="C03D" eqt_q_inc="C03D" eqt_vdw="C03D" mass="12.011" name="C03D"/>
+    <AtomType charge="-0.301721" eqt_ang_c="C04D" eqt_ang_s="C04D" eqt_bond="C04D" eqt_dih_c="C04D" eqt_dih_s="C04D" eqt_imp_c="C04D" eqt_imp_s="C04D" eqt_polar="C04D" eqt_q_inc="C04D" eqt_vdw="C04D" mass="12.011" name="C04D"/>
+    <AtomType charge="-0.1217" eqt_ang_c="C05D" eqt_ang_s="C05D" eqt_bond="C05D" eqt_dih_c="C05D" eqt_dih_s="C05D" eqt_imp_c="C05D" eqt_imp_s="C05D" eqt_polar="C05D" eqt_q_inc="C05D" eqt_vdw="C05D" mass="12.011" name="C05D"/>
+    <AtomType charge="-0.332936" eqt_ang_c="N06D" eqt_ang_s="N06D" eqt_bond="N06D" eqt_dih_c="N06D" eqt_dih_s="N06D" eqt_imp_c="N06D" eqt_imp_s="N06D" eqt_polar="N06D" eqt_q_inc="N06D" eqt_vdw="N06D" mass="14.007" name="N06D"/>
+    <AtomType charge="0.321622" eqt_ang_c="H07D" eqt_ang_s="H07D" eqt_bond="H07D" eqt_dih_c="H07D" eqt_dih_s="H07D" eqt_imp_c="H07D" eqt_imp_s="H07D" eqt_polar="H07D" eqt_q_inc="H07D" eqt_vdw="H07D" mass="1.008" name="H07D"/>
+    <AtomType charge="0.150045" eqt_ang_c="C08D" eqt_ang_s="C08D" eqt_bond="C08D" eqt_dih_c="C08D" eqt_dih_s="C08D" eqt_imp_c="C08D" eqt_imp_s="C08D" eqt_polar="C08D" eqt_q_inc="C08D" eqt_vdw="C08D" mass="12.011" name="C08D"/>
+    <AtomType charge="-0.443969" eqt_ang_c="C09D" eqt_ang_s="C09D" eqt_bond="C09D" eqt_dih_c="C09D" eqt_dih_s="C09D" eqt_imp_c="C09D" eqt_imp_s="C09D" eqt_polar="C09D" eqt_q_inc="C09D" eqt_vdw="C09D" mass="12.011" name="C09D"/>
+    <AtomType charge="0.284527" eqt_ang_c="C0AD" eqt_ang_s="C0AD" eqt_bond="C0AD" eqt_dih_c="C0AD" eqt_dih_s="C0AD" eqt_imp_c="C0AD" eqt_imp_s="C0AD" eqt_polar="C0AD" eqt_q_inc="C0AD" eqt_vdw="C0AD" mass="12.011" name="C0AD"/>
+    <AtomType charge="-0.551515" eqt_ang_c="O0BD" eqt_ang_s="O0BD" eqt_bond="O0BD" eqt_dih_c="O0BD" eqt_dih_s="O0BD" eqt_imp_c="O0BD" eqt_imp_s="O0BD" eqt_polar="O0BD" eqt_q_inc="O0BD" eqt_vdw="O0BD" mass="15.999" name="O0BD"/>
+    <AtomType charge="0.337951" eqt_ang_c="H0CD" eqt_ang_s="H0CD" eqt_bond="H0CD" eqt_dih_c="H0CD" eqt_dih_s="H0CD" eqt_imp_c="H0CD" eqt_imp_s="H0CD" eqt_polar="H0CD" eqt_q_inc="H0CD" eqt_vdw="H0CD" mass="1.008" name="H0CD"/>
+    <AtomType charge="0.236682" eqt_ang_c="H0DD" eqt_ang_s="H0DD" eqt_bond="H0DD" eqt_dih_c="H0DD" eqt_dih_s="H0DD" eqt_imp_c="H0DD" eqt_imp_s="H0DD" eqt_polar="H0DD" eqt_q_inc="H0DD" eqt_vdw="H0DD" mass="1.008" name="H0DD"/>
+    <AtomType charge="0.135884" eqt_ang_c="H0ED" eqt_ang_s="H0ED" eqt_bond="H0ED" eqt_dih_c="H0ED" eqt_dih_s="H0ED" eqt_imp_c="H0ED" eqt_imp_s="H0ED" eqt_polar="H0ED" eqt_q_inc="H0ED" eqt_vdw="H0ED" mass="1.008" name="H0ED"/>
+    <AtomType charge="0.166028" eqt_ang_c="H0FD" eqt_ang_s="H0FD" eqt_bond="H0FD" eqt_dih_c="H0FD" eqt_dih_s="H0FD" eqt_imp_c="H0FD" eqt_imp_s="H0FD" eqt_polar="H0FD" eqt_q_inc="H0FD" eqt_vdw="H0FD" mass="1.008" name="H0FD"/>
+    <AtomType charge="0.193878" eqt_ang_c="H0GD" eqt_ang_s="H0GD" eqt_bond="H0GD" eqt_dih_c="H0GD" eqt_dih_s="H0GD" eqt_imp_c="H0GD" eqt_imp_s="H0GD" eqt_polar="H0GD" eqt_q_inc="H0GD" eqt_vdw="H0GD" mass="1.008" name="H0GD"/>
+    <AtomType charge="0.396198" eqt_ang_c="H0HD" eqt_ang_s="H0HD" eqt_bond="H0HD" eqt_dih_c="H0HD" eqt_dih_s="H0HD" eqt_imp_c="H0HD" eqt_imp_s="H0HD" eqt_polar="H0HD" eqt_q_inc="H0HD" eqt_vdw="H0HD" mass="1.008" name="H0HD"/>
+    <AtomType charge="-0.502595" eqt_ang_c="O00I" eqt_ang_s="O00I" eqt_bond="O00I" eqt_dih_c="O00I" eqt_dih_s="O00I" eqt_imp_c="O00I" eqt_imp_s="O00I" eqt_polar="O00I" eqt_q_inc="O00I" eqt_vdw="O00I" mass="15.999" name="O00I"/>
+    <AtomType charge="0.529027" eqt_ang_c="C01I" eqt_ang_s="C01I" eqt_bond="C01I" eqt_dih_c="C01I" eqt_dih_s="C01I" eqt_imp_c="C01I" eqt_imp_s="C01I" eqt_polar="C01I" eqt_q_inc="C01I" eqt_vdw="C01I" mass="12.011" name="C01I"/>
+    <AtomType charge="-0.414369" eqt_ang_c="C02I" eqt_ang_s="C02I" eqt_bond="C02I" eqt_dih_c="C02I" eqt_dih_s="C02I" eqt_imp_c="C02I" eqt_imp_s="C02I" eqt_polar="C02I" eqt_q_inc="C02I" eqt_vdw="C02I" mass="12.011" name="C02I"/>
+    <AtomType charge="0.287833" eqt_ang_c="C03I" eqt_ang_s="C03I" eqt_bond="C03I" eqt_dih_c="C03I" eqt_dih_s="C03I" eqt_imp_c="C03I" eqt_imp_s="C03I" eqt_polar="C03I" eqt_q_inc="C03I" eqt_vdw="C03I" mass="12.011" name="C03I"/>
+    <AtomType charge="-0.46748" eqt_ang_c="C04I" eqt_ang_s="C04I" eqt_bond="C04I" eqt_dih_c="C04I" eqt_dih_s="C04I" eqt_imp_c="C04I" eqt_imp_s="C04I" eqt_polar="C04I" eqt_q_inc="C04I" eqt_vdw="C04I" mass="12.011" name="C04I"/>
+    <AtomType charge="0.175213" eqt_ang_c="C05I" eqt_ang_s="C05I" eqt_bond="C05I" eqt_dih_c="C05I" eqt_dih_s="C05I" eqt_imp_c="C05I" eqt_imp_s="C05I" eqt_polar="C05I" eqt_q_inc="C05I" eqt_vdw="C05I" mass="12.011" name="C05I"/>
+    <AtomType charge="-0.538968" eqt_ang_c="N06I" eqt_ang_s="N06I" eqt_bond="N06I" eqt_dih_c="N06I" eqt_dih_s="N06I" eqt_imp_c="N06I" eqt_imp_s="N06I" eqt_polar="N06I" eqt_q_inc="N06I" eqt_vdw="N06I" mass="14.007" name="N06I"/>
+    <AtomType charge="0.351499" eqt_ang_c="H07I" eqt_ang_s="H07I" eqt_bond="H07I" eqt_dih_c="H07I" eqt_dih_s="H07I" eqt_imp_c="H07I" eqt_imp_s="H07I" eqt_polar="H07I" eqt_q_inc="H07I" eqt_vdw="H07I" mass="1.008" name="H07I"/>
+    <AtomType charge="0.320281" eqt_ang_c="C08I" eqt_ang_s="C08I" eqt_bond="C08I" eqt_dih_c="C08I" eqt_dih_s="C08I" eqt_imp_c="C08I" eqt_imp_s="C08I" eqt_polar="C08I" eqt_q_inc="C08I" eqt_vdw="C08I" mass="12.011" name="C08I"/>
+    <AtomType charge="-0.55716" eqt_ang_c="C09I" eqt_ang_s="C09I" eqt_bond="C09I" eqt_dih_c="C09I" eqt_dih_s="C09I" eqt_imp_c="C09I" eqt_imp_s="C09I" eqt_polar="C09I" eqt_q_inc="C09I" eqt_vdw="C09I" mass="12.011" name="C09I"/>
+    <AtomType charge="0.52636" eqt_ang_c="C0AI" eqt_ang_s="C0AI" eqt_bond="C0AI" eqt_dih_c="C0AI" eqt_dih_s="C0AI" eqt_imp_c="C0AI" eqt_imp_s="C0AI" eqt_polar="C0AI" eqt_q_inc="C0AI" eqt_vdw="C0AI" mass="12.011" name="C0AI"/>
+    <AtomType charge="-0.499845" eqt_ang_c="O0BI" eqt_ang_s="O0BI" eqt_bond="O0BI" eqt_dih_c="O0BI" eqt_dih_s="O0BI" eqt_imp_c="O0BI" eqt_imp_s="O0BI" eqt_polar="O0BI" eqt_q_inc="O0BI" eqt_vdw="O0BI" mass="15.999" name="O0BI"/>
+    <AtomType charge="0.194485" eqt_ang_c="H0CI" eqt_ang_s="H0CI" eqt_bond="H0CI" eqt_dih_c="H0CI" eqt_dih_s="H0CI" eqt_imp_c="H0CI" eqt_imp_s="H0CI" eqt_polar="H0CI" eqt_q_inc="H0CI" eqt_vdw="H0CI" mass="1.008" name="H0CI"/>
+    <AtomType charge="0.208718" eqt_ang_c="H0DI" eqt_ang_s="H0DI" eqt_bond="H0DI" eqt_dih_c="H0DI" eqt_dih_s="H0DI" eqt_imp_c="H0DI" eqt_imp_s="H0DI" eqt_polar="H0DI" eqt_q_inc="H0DI" eqt_vdw="H0DI" mass="1.008" name="H0DI"/>
+    <AtomType charge="0.128925" eqt_ang_c="H0EI" eqt_ang_s="H0EI" eqt_bond="H0EI" eqt_dih_c="H0EI" eqt_dih_s="H0EI" eqt_imp_c="H0EI" eqt_imp_s="H0EI" eqt_polar="H0EI" eqt_q_inc="H0EI" eqt_vdw="H0EI" mass="1.008" name="H0EI"/>
+    <AtomType charge="0.258077" eqt_ang_c="H0FI" eqt_ang_s="H0FI" eqt_bond="H0FI" eqt_dih_c="H0FI" eqt_dih_s="H0FI" eqt_imp_c="H0FI" eqt_imp_s="H0FI" eqt_polar="H0FI" eqt_q_inc="H0FI" eqt_vdw="H0FI" mass="1.008" name="H0FI"/>
+    <AtomType charge="0.553407" eqt_ang_c="C00P" eqt_ang_s="C00P" eqt_bond="C00P" eqt_dih_c="C00P" eqt_dih_s="C00P" eqt_imp_c="C00P" eqt_imp_s="C00P" eqt_polar="C00P" eqt_q_inc="C00P" eqt_vdw="C00P" mass="12.011" name="C00P"/>
+    <AtomType charge="0.537004" eqt_ang_c="C01P" eqt_ang_s="C01P" eqt_bond="C01P" eqt_dih_c="C01P" eqt_dih_s="C01P" eqt_imp_c="C01P" eqt_imp_s="C01P" eqt_polar="C01P" eqt_q_inc="C01P" eqt_vdw="C01P" mass="12.011" name="C01P"/>
+    <AtomType charge="-0.473754" eqt_ang_c="C02P" eqt_ang_s="C02P" eqt_bond="C02P" eqt_dih_c="C02P" eqt_dih_s="C02P" eqt_imp_c="C02P" eqt_imp_s="C02P" eqt_polar="C02P" eqt_q_inc="C02P" eqt_vdw="C02P" mass="12.011" name="C02P"/>
+    <AtomType charge="0.255559" eqt_ang_c="C03P" eqt_ang_s="C03P" eqt_bond="C03P" eqt_dih_c="C03P" eqt_dih_s="C03P" eqt_imp_c="C03P" eqt_imp_s="C03P" eqt_polar="C03P" eqt_q_inc="C03P" eqt_vdw="C03P" mass="12.011" name="C03P"/>
+    <AtomType charge="0.22908" eqt_ang_c="C04P" eqt_ang_s="C04P" eqt_bond="C04P" eqt_dih_c="C04P" eqt_dih_s="C04P" eqt_imp_c="C04P" eqt_imp_s="C04P" eqt_polar="C04P" eqt_q_inc="C04P" eqt_vdw="C04P" mass="12.011" name="C04P"/>
+    <AtomType charge="-0.501117" eqt_ang_c="C05P" eqt_ang_s="C05P" eqt_bond="C05P" eqt_dih_c="C05P" eqt_dih_s="C05P" eqt_imp_c="C05P" eqt_imp_s="C05P" eqt_polar="C05P" eqt_q_inc="C05P" eqt_vdw="C05P" mass="12.011" name="C05P"/>
+    <AtomType charge="-0.428219" eqt_ang_c="C06P" eqt_ang_s="C06P" eqt_bond="C06P" eqt_dih_c="C06P" eqt_dih_s="C06P" eqt_imp_c="C06P" eqt_imp_s="C06P" eqt_polar="C06P" eqt_q_inc="C06P" eqt_vdw="C06P" mass="12.011" name="C06P"/>
+    <AtomType charge="0.270768" eqt_ang_c="C07P" eqt_ang_s="C07P" eqt_bond="C07P" eqt_dih_c="C07P" eqt_dih_s="C07P" eqt_imp_c="C07P" eqt_imp_s="C07P" eqt_polar="C07P" eqt_q_inc="C07P" eqt_vdw="C07P" mass="12.011" name="C07P"/>
+    <AtomType charge="-0.385902" eqt_ang_c="N08P" eqt_ang_s="N08P" eqt_bond="N08P" eqt_dih_c="N08P" eqt_dih_s="N08P" eqt_imp_c="N08P" eqt_imp_s="N08P" eqt_polar="N08P" eqt_q_inc="N08P" eqt_vdw="N08P" mass="14.007" name="N08P"/>
+    <AtomType charge="0.045042" eqt_ang_c="C09P" eqt_ang_s="C09P" eqt_bond="C09P" eqt_dih_c="C09P" eqt_dih_s="C09P" eqt_imp_c="C09P" eqt_imp_s="C09P" eqt_polar="C09P" eqt_q_inc="C09P" eqt_vdw="C09P" mass="12.011" name="C09P"/>
+    <AtomType charge="-0.320013" eqt_ang_c="C0AP" eqt_ang_s="C0AP" eqt_bond="C0AP" eqt_dih_c="C0AP" eqt_dih_s="C0AP" eqt_imp_c="C0AP" eqt_imp_s="C0AP" eqt_polar="C0AP" eqt_q_inc="C0AP" eqt_vdw="C0AP" mass="12.011" name="C0AP"/>
+    <AtomType charge="0.169398" eqt_ang_c="C0BP" eqt_ang_s="C0BP" eqt_bond="C0BP" eqt_dih_c="C0BP" eqt_dih_s="C0BP" eqt_imp_c="C0BP" eqt_imp_s="C0BP" eqt_polar="C0BP" eqt_q_inc="C0BP" eqt_vdw="C0BP" mass="12.011" name="C0BP"/>
+    <AtomType charge="0.12952" eqt_ang_c="C0CP" eqt_ang_s="C0CP" eqt_bond="C0CP" eqt_dih_c="C0CP" eqt_dih_s="C0CP" eqt_imp_c="C0CP" eqt_imp_s="C0CP" eqt_polar="C0CP" eqt_q_inc="C0CP" eqt_vdw="C0CP" mass="12.011" name="C0CP"/>
+    <AtomType charge="-0.33202" eqt_ang_c="N0DP" eqt_ang_s="N0DP" eqt_bond="N0DP" eqt_dih_c="N0DP" eqt_dih_s="N0DP" eqt_imp_c="N0DP" eqt_imp_s="N0DP" eqt_polar="N0DP" eqt_q_inc="N0DP" eqt_vdw="N0DP" mass="14.007" name="N0DP"/>
+    <AtomType charge="-0.39566" eqt_ang_c="C0EP" eqt_ang_s="C0EP" eqt_bond="C0EP" eqt_dih_c="C0EP" eqt_dih_s="C0EP" eqt_imp_c="C0EP" eqt_imp_s="C0EP" eqt_polar="C0EP" eqt_q_inc="C0EP" eqt_vdw="C0EP" mass="12.011" name="C0EP"/>
+    <AtomType charge="0.191109" eqt_ang_c="C0FP" eqt_ang_s="C0FP" eqt_bond="C0FP" eqt_dih_c="C0FP" eqt_dih_s="C0FP" eqt_imp_c="C0FP" eqt_imp_s="C0FP" eqt_polar="C0FP" eqt_q_inc="C0FP" eqt_vdw="C0FP" mass="12.011" name="C0FP"/>
+    <AtomType charge="0.32711" eqt_ang_c="C0GP" eqt_ang_s="C0GP" eqt_bond="C0GP" eqt_dih_c="C0GP" eqt_dih_s="C0GP" eqt_imp_c="C0GP" eqt_imp_s="C0GP" eqt_polar="C0GP" eqt_q_inc="C0GP" eqt_vdw="C0GP" mass="12.011" name="C0GP"/>
+    <AtomType charge="-0.515439" eqt_ang_c="O0HP" eqt_ang_s="O0HP" eqt_bond="O0HP" eqt_dih_c="O0HP" eqt_dih_s="O0HP" eqt_imp_c="O0HP" eqt_imp_s="O0HP" eqt_polar="O0HP" eqt_q_inc="O0HP" eqt_vdw="O0HP" mass="15.999" name="O0HP"/>
+    <AtomType charge="-0.518359" eqt_ang_c="O0IP" eqt_ang_s="O0IP" eqt_bond="O0IP" eqt_dih_c="O0IP" eqt_dih_s="O0IP" eqt_imp_c="O0IP" eqt_imp_s="O0IP" eqt_polar="O0IP" eqt_q_inc="O0IP" eqt_vdw="O0IP" mass="15.999" name="O0IP"/>
+    <AtomType charge="-0.565089" eqt_ang_c="O0JP" eqt_ang_s="O0JP" eqt_bond="O0JP" eqt_dih_c="O0JP" eqt_dih_s="O0JP" eqt_imp_c="O0JP" eqt_imp_s="O0JP" eqt_polar="O0JP" eqt_q_inc="O0JP" eqt_vdw="O0JP" mass="15.999" name="O0JP"/>
+    <AtomType charge="0.40935" eqt_ang_c="H0KP" eqt_ang_s="H0KP" eqt_bond="H0KP" eqt_dih_c="H0KP" eqt_dih_s="H0KP" eqt_imp_c="H0KP" eqt_imp_s="H0KP" eqt_polar="H0KP" eqt_q_inc="H0KP" eqt_vdw="H0KP" mass="1.008" name="H0KP"/>
+    <AtomType charge="-0.576489" eqt_ang_c="O0MP" eqt_ang_s="O0MP" eqt_bond="O0MP" eqt_dih_c="O0MP" eqt_dih_s="O0MP" eqt_imp_c="O0MP" eqt_imp_s="O0MP" eqt_polar="O0MP" eqt_q_inc="O0MP" eqt_vdw="O0MP" mass="15.999" name="O0MP"/>
+    <AtomType charge="0.305603" eqt_ang_c="H0NP" eqt_ang_s="H0NP" eqt_bond="H0NP" eqt_dih_c="H0NP" eqt_dih_s="H0NP" eqt_imp_c="H0NP" eqt_imp_s="H0NP" eqt_polar="H0NP" eqt_q_inc="H0NP" eqt_vdw="H0NP" mass="1.008" name="H0NP"/>
+    <AtomType charge="0.208105" eqt_ang_c="H0OP" eqt_ang_s="H0OP" eqt_bond="H0OP" eqt_dih_c="H0OP" eqt_dih_s="H0OP" eqt_imp_c="H0OP" eqt_imp_s="H0OP" eqt_polar="H0OP" eqt_q_inc="H0OP" eqt_vdw="H0OP" mass="1.008" name="H0OP"/>
+    <AtomType charge="0.194725" eqt_ang_c="H0PP" eqt_ang_s="H0PP" eqt_bond="H0PP" eqt_dih_c="H0PP" eqt_dih_s="H0PP" eqt_imp_c="H0PP" eqt_imp_s="H0PP" eqt_polar="H0PP" eqt_q_inc="H0PP" eqt_vdw="H0PP" mass="1.008" name="H0PP"/>
+    <AtomType charge="0.220244" eqt_ang_c="H0QP" eqt_ang_s="H0QP" eqt_bond="H0QP" eqt_dih_c="H0QP" eqt_dih_s="H0QP" eqt_imp_c="H0QP" eqt_imp_s="H0QP" eqt_polar="H0QP" eqt_q_inc="H0QP" eqt_vdw="H0QP" mass="1.008" name="H0QP"/>
+    <AtomType charge="0.189067" eqt_ang_c="H0RP" eqt_ang_s="H0RP" eqt_bond="H0RP" eqt_dih_c="H0RP" eqt_dih_s="H0RP" eqt_imp_c="H0RP" eqt_imp_s="H0RP" eqt_polar="H0RP" eqt_q_inc="H0RP" eqt_vdw="H0RP" mass="1.008" name="H0RP"/>
+    <AtomType charge="-0.362464" eqt_ang_c="C0SP" eqt_ang_s="C0SP" eqt_bond="C0SP" eqt_dih_c="C0SP" eqt_dih_s="C0SP" eqt_imp_c="C0SP" eqt_imp_s="C0SP" eqt_polar="C0SP" eqt_q_inc="C0SP" eqt_vdw="C0SP" mass="12.011" name="C0SP"/>
+    <AtomType charge="0.432613" eqt_ang_c="H0TP" eqt_ang_s="H0TP" eqt_bond="H0TP" eqt_dih_c="H0TP" eqt_dih_s="H0TP" eqt_imp_c="H0TP" eqt_imp_s="H0TP" eqt_polar="H0TP" eqt_q_inc="H0TP" eqt_vdw="H0TP" mass="1.008" name="H0TP"/>
+    <AtomType charge="0.222731" eqt_ang_c="H0UP" eqt_ang_s="H0UP" eqt_bond="H0UP" eqt_dih_c="H0UP" eqt_dih_s="H0UP" eqt_imp_c="H0UP" eqt_imp_s="H0UP" eqt_polar="H0UP" eqt_q_inc="H0UP" eqt_vdw="H0UP" mass="1.008" name="H0UP"/>
+    <AtomType charge="0.206103" eqt_ang_c="H0VP" eqt_ang_s="H0VP" eqt_bond="H0VP" eqt_dih_c="H0VP" eqt_dih_s="H0VP" eqt_imp_c="H0VP" eqt_imp_s="H0VP" eqt_polar="H0VP" eqt_q_inc="H0VP" eqt_vdw="H0VP" mass="1.008" name="H0VP"/>
+    <AtomType charge="0.277985" eqt_ang_c="H0WP" eqt_ang_s="H0WP" eqt_bond="H0WP" eqt_dih_c="H0WP" eqt_dih_s="H0WP" eqt_imp_c="H0WP" eqt_imp_s="H0WP" eqt_polar="H0WP" eqt_q_inc="H0WP" eqt_vdw="H0WP" mass="1.008" name="H0WP"/>
+    <AtomType charge="0.406286" eqt_ang_c="H00M" eqt_ang_s="H00M" eqt_bond="H00M" eqt_dih_c="H00M" eqt_dih_s="H00M" eqt_imp_c="H00M" eqt_imp_s="H00M" eqt_polar="H00M" eqt_q_inc="H00M" eqt_vdw="H00M" mass="1.008" name="H00M"/>
+    <AtomType charge="-0.540595" eqt_ang_c="O01M" eqt_ang_s="O01M" eqt_bond="O01M" eqt_dih_c="O01M" eqt_dih_s="O01M" eqt_imp_c="O01M" eqt_imp_s="O01M" eqt_polar="O01M" eqt_q_inc="O01M" eqt_vdw="O01M" mass="15.999" name="O01M"/>
+    <AtomType charge="0.2356" eqt_ang_c="C02M" eqt_ang_s="C02M" eqt_bond="C02M" eqt_dih_c="C02M" eqt_dih_s="C02M" eqt_imp_c="C02M" eqt_imp_s="C02M" eqt_polar="C02M" eqt_q_inc="C02M" eqt_vdw="C02M" mass="12.011" name="C02M"/>
+    <AtomType charge="0.646518" eqt_ang_c="C03M" eqt_ang_s="C03M" eqt_bond="C03M" eqt_dih_c="C03M" eqt_dih_s="C03M" eqt_imp_c="C03M" eqt_imp_s="C03M" eqt_polar="C03M" eqt_q_inc="C03M" eqt_vdw="C03M" mass="12.011" name="C03M"/>
+    <AtomType charge="-0.386662" eqt_ang_c="C04M" eqt_ang_s="C04M" eqt_bond="C04M" eqt_dih_c="C04M" eqt_dih_s="C04M" eqt_imp_c="C04M" eqt_imp_s="C04M" eqt_polar="C04M" eqt_q_inc="C04M" eqt_vdw="C04M" mass="12.011" name="C04M"/>
+    <AtomType charge="-0.611971" eqt_ang_c="O05M" eqt_ang_s="O05M" eqt_bond="O05M" eqt_dih_c="O05M" eqt_dih_s="O05M" eqt_imp_c="O05M" eqt_imp_s="O05M" eqt_polar="O05M" eqt_q_inc="O05M" eqt_vdw="O05M" mass="15.999" name="O05M"/>
+    <AtomType charge="-0.651433" eqt_ang_c="C06M" eqt_ang_s="C06M" eqt_bond="C06M" eqt_dih_c="C06M" eqt_dih_s="C06M" eqt_imp_c="C06M" eqt_imp_s="C06M" eqt_polar="C06M" eqt_q_inc="C06M" eqt_vdw="C06M" mass="12.011" name="C06M"/>
+    <AtomType charge="0.211904" eqt_ang_c="H07M" eqt_ang_s="H07M" eqt_bond="H07M" eqt_dih_c="H07M" eqt_dih_s="H07M" eqt_imp_c="H07M" eqt_imp_s="H07M" eqt_polar="H07M" eqt_q_inc="H07M" eqt_vdw="H07M" mass="1.008" name="H07M"/>
+    <AtomType charge="0.090834" eqt_ang_c="C08M" eqt_ang_s="C08M" eqt_bond="C08M" eqt_dih_c="C08M" eqt_dih_s="C08M" eqt_imp_c="C08M" eqt_imp_s="C08M" eqt_polar="C08M" eqt_q_inc="C08M" eqt_vdw="C08M" mass="12.011" name="C08M"/>
+    <AtomType charge="0.219618" eqt_ang_c="H09M" eqt_ang_s="H09M" eqt_bond="H09M" eqt_dih_c="H09M" eqt_dih_s="H09M" eqt_imp_c="H09M" eqt_imp_s="H09M" eqt_polar="H09M" eqt_q_inc="H09M" eqt_vdw="H09M" mass="1.008" name="H09M"/>
+    <AtomType charge="0.421389" eqt_ang_c="C0AM" eqt_ang_s="C0AM" eqt_bond="C0AM" eqt_dih_c="C0AM" eqt_dih_s="C0AM" eqt_imp_c="C0AM" eqt_imp_s="C0AM" eqt_polar="C0AM" eqt_q_inc="C0AM" eqt_vdw="C0AM" mass="12.011" name="C0AM"/>
+    <AtomType charge="-0.240325" eqt_ang_c="C0BM" eqt_ang_s="C0BM" eqt_bond="C0BM" eqt_dih_c="C0BM" eqt_dih_s="C0BM" eqt_imp_c="C0BM" eqt_imp_s="C0BM" eqt_polar="C0BM" eqt_q_inc="C0BM" eqt_vdw="C0BM" mass="12.011" name="C0BM"/>
+    <AtomType charge="-0.589416" eqt_ang_c="N0CM" eqt_ang_s="N0CM" eqt_bond="N0CM" eqt_dih_c="N0CM" eqt_dih_s="N0CM" eqt_imp_c="N0CM" eqt_imp_s="N0CM" eqt_polar="N0CM" eqt_q_inc="N0CM" eqt_vdw="N0CM" mass="14.007" name="N0CM"/>
+    <AtomType charge="0.135744" eqt_ang_c="H0DM" eqt_ang_s="H0DM" eqt_bond="H0DM" eqt_dih_c="H0DM" eqt_dih_s="H0DM" eqt_imp_c="H0DM" eqt_imp_s="H0DM" eqt_polar="H0DM" eqt_q_inc="H0DM" eqt_vdw="H0DM" mass="1.008" name="H0DM"/>
+    <AtomType charge="0.302395" eqt_ang_c="C0EM" eqt_ang_s="C0EM" eqt_bond="C0EM" eqt_dih_c="C0EM" eqt_dih_s="C0EM" eqt_imp_c="C0EM" eqt_imp_s="C0EM" eqt_polar="C0EM" eqt_q_inc="C0EM" eqt_vdw="C0EM" mass="12.011" name="C0EM"/>
+    <AtomType charge="0.35236" eqt_ang_c="H0FM" eqt_ang_s="H0FM" eqt_bond="H0FM" eqt_dih_c="H0FM" eqt_dih_s="H0FM" eqt_imp_c="H0FM" eqt_imp_s="H0FM" eqt_polar="H0FM" eqt_q_inc="H0FM" eqt_vdw="H0FM" mass="1.008" name="H0FM"/>
+    <AtomType charge="-0.01459" eqt_ang_c="H0GM" eqt_ang_s="H0GM" eqt_bond="H0GM" eqt_dih_c="H0GM" eqt_dih_s="H0GM" eqt_imp_c="H0GM" eqt_imp_s="H0GM" eqt_polar="H0GM" eqt_q_inc="H0GM" eqt_vdw="H0GM" mass="1.008" name="H0GM"/>
+    <AtomType charge="0.341166" eqt_ang_c="C0HM" eqt_ang_s="C0HM" eqt_bond="C0HM" eqt_dih_c="C0HM" eqt_dih_s="C0HM" eqt_imp_c="C0HM" eqt_imp_s="C0HM" eqt_polar="C0HM" eqt_q_inc="C0HM" eqt_vdw="C0HM" mass="12.011" name="C0HM"/>
+    <AtomType charge="-0.028456" eqt_ang_c="H0IM" eqt_ang_s="H0IM" eqt_bond="H0IM" eqt_dih_c="H0IM" eqt_dih_s="H0IM" eqt_imp_c="H0IM" eqt_imp_s="H0IM" eqt_polar="H0IM" eqt_q_inc="H0IM" eqt_vdw="H0IM" mass="1.008" name="H0IM"/>
+    <AtomType charge="-0.602823" eqt_ang_c="N0JM" eqt_ang_s="N0JM" eqt_bond="N0JM" eqt_dih_c="N0JM" eqt_dih_s="N0JM" eqt_imp_c="N0JM" eqt_imp_s="N0JM" eqt_polar="N0JM" eqt_q_inc="N0JM" eqt_vdw="N0JM" mass="14.007" name="N0JM"/>
+    <AtomType charge="-0.280327" eqt_ang_c="C0KM" eqt_ang_s="C0KM" eqt_bond="C0KM" eqt_dih_c="C0KM" eqt_dih_s="C0KM" eqt_imp_c="C0KM" eqt_imp_s="C0KM" eqt_polar="C0KM" eqt_q_inc="C0KM" eqt_vdw="C0KM" mass="12.011" name="C0KM"/>
+    <AtomType charge="0.354672" eqt_ang_c="H0MM" eqt_ang_s="H0MM" eqt_bond="H0MM" eqt_dih_c="H0MM" eqt_dih_s="H0MM" eqt_imp_c="H0MM" eqt_imp_s="H0MM" eqt_polar="H0MM" eqt_q_inc="H0MM" eqt_vdw="H0MM" mass="1.008" name="H0MM"/>
+    <AtomType charge="0.411437" eqt_ang_c="C0NM" eqt_ang_s="C0NM" eqt_bond="C0NM" eqt_dih_c="C0NM" eqt_dih_s="C0NM" eqt_imp_c="C0NM" eqt_imp_s="C0NM" eqt_polar="C0NM" eqt_q_inc="C0NM" eqt_vdw="C0NM" mass="12.011" name="C0NM"/>
+    <AtomType charge="0.141715" eqt_ang_c="H0OM" eqt_ang_s="H0OM" eqt_bond="H0OM" eqt_dih_c="H0OM" eqt_dih_s="H0OM" eqt_imp_c="H0OM" eqt_imp_s="H0OM" eqt_polar="H0OM" eqt_q_inc="H0OM" eqt_vdw="H0OM" mass="1.008" name="H0OM"/>
+    <AtomType charge="0.120922" eqt_ang_c="C0PM" eqt_ang_s="C0PM" eqt_bond="C0PM" eqt_dih_c="C0PM" eqt_dih_s="C0PM" eqt_imp_c="C0PM" eqt_imp_s="C0PM" eqt_polar="C0PM" eqt_q_inc="C0PM" eqt_vdw="C0PM" mass="12.011" name="C0PM"/>
+    <AtomType charge="-0.649606" eqt_ang_c="C0QM" eqt_ang_s="C0QM" eqt_bond="C0QM" eqt_dih_c="C0QM" eqt_dih_s="C0QM" eqt_imp_c="C0QM" eqt_imp_s="C0QM" eqt_polar="C0QM" eqt_q_inc="C0QM" eqt_vdw="C0QM" mass="12.011" name="C0QM"/>
+    <AtomType charge="-0.464986" eqt_ang_c="C0RM" eqt_ang_s="C0RM" eqt_bond="C0RM" eqt_dih_c="C0RM" eqt_dih_s="C0RM" eqt_imp_c="C0RM" eqt_imp_s="C0RM" eqt_polar="C0RM" eqt_q_inc="C0RM" eqt_vdw="C0RM" mass="12.011" name="C0RM"/>
+    <AtomType charge="0.223283" eqt_ang_c="H0SM" eqt_ang_s="H0SM" eqt_bond="H0SM" eqt_dih_c="H0SM" eqt_dih_s="H0SM" eqt_imp_c="H0SM" eqt_imp_s="H0SM" eqt_polar="H0SM" eqt_q_inc="H0SM" eqt_vdw="H0SM" mass="1.008" name="H0SM"/>
+    <AtomType charge="0.638559" eqt_ang_c="C0TM" eqt_ang_s="C0TM" eqt_bond="C0TM" eqt_dih_c="C0TM" eqt_dih_s="C0TM" eqt_imp_c="C0TM" eqt_imp_s="C0TM" eqt_polar="C0TM" eqt_q_inc="C0TM" eqt_vdw="C0TM" mass="12.011" name="C0TM"/>
+    <AtomType charge="0.221167" eqt_ang_c="H0UM" eqt_ang_s="H0UM" eqt_bond="H0UM" eqt_dih_c="H0UM" eqt_dih_s="H0UM" eqt_imp_c="H0UM" eqt_imp_s="H0UM" eqt_polar="H0UM" eqt_q_inc="H0UM" eqt_vdw="H0UM" mass="1.008" name="H0UM"/>
+    <AtomType charge="0.271024" eqt_ang_c="C0VM" eqt_ang_s="C0VM" eqt_bond="C0VM" eqt_dih_c="C0VM" eqt_dih_s="C0VM" eqt_imp_c="C0VM" eqt_imp_s="C0VM" eqt_polar="C0VM" eqt_q_inc="C0VM" eqt_vdw="C0VM" mass="12.011" name="C0VM"/>
+    <AtomType charge="-0.605552" eqt_ang_c="O0WM" eqt_ang_s="O0WM" eqt_bond="O0WM" eqt_dih_c="O0WM" eqt_dih_s="O0WM" eqt_imp_c="O0WM" eqt_imp_s="O0WM" eqt_polar="O0WM" eqt_q_inc="O0WM" eqt_vdw="O0WM" mass="15.999" name="O0WM"/>
+    <AtomType charge="-0.485025" eqt_ang_c="O0XM" eqt_ang_s="O0XM" eqt_bond="O0XM" eqt_dih_c="O0XM" eqt_dih_s="O0XM" eqt_imp_c="O0XM" eqt_imp_s="O0XM" eqt_polar="O0XM" eqt_q_inc="O0XM" eqt_vdw="O0XM" mass="15.999" name="O0XM"/>
+    <AtomType charge="0.405177" eqt_ang_c="H0YM" eqt_ang_s="H0YM" eqt_bond="H0YM" eqt_dih_c="H0YM" eqt_dih_s="H0YM" eqt_imp_c="H0YM" eqt_imp_s="H0YM" eqt_polar="H0YM" eqt_q_inc="H0YM" eqt_vdw="H0YM" mass="1.008" name="H0YM"/>
+    <AtomType charge="0" eqt_ang_c="DP_" eqt_ang_s="DP_" eqt_bond="DP_" eqt_dih_c="DP_" eqt_dih_s="DP_" eqt_imp_c="DP_" eqt_imp_s="DP_" eqt_polar="DP_" eqt_q_inc="DP_" eqt_vdw="DP_" mass="-1" name="DP_"/>
+  </AtomTypes>
+  <VirtualSiteTerms/>
+  <ChargeIncrementTerms/>
+  <VdwTerms>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="C1" type2="C1"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="C1A" type2="C1A"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="C2" type2="C2"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="CE" type2="CE"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="CS" type2="CS"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="CT" type2="CT"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CR" type2="CR"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CW" type2="CW"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="HCR" type2="HCR"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="HCW" type2="HCW"/>
+    <LJ126Term epsilon="0.12552" sigma="0.25" type1="HC" type2="HC"/>
+    <LJ126Term epsilon="0.12552" sigma="0.25" type1="HCA" type2="HCA"/>
+    <LJ126Term epsilon="0.12552" sigma="0.25" type1="H1" type2="H1"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="NA" type2="NA"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CRH" type2="CRH"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="NAH" type2="NAH"/>
+    <LJ126Term epsilon="0.29288" sigma="0.29300000000000004" type1="CWH" type2="CWH"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="HNA" type2="HNA"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CRM" type2="CRM"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="NAM" type2="NAM"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="CCR" type2="CCR"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CA" type2="CA"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="HA" type2="HA"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="C1T" type2="C1T"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CAP" type2="CAP"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CAM" type2="CAM"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CAO" type2="CAO"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CAT" type2="CAT"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="HAT" type2="HAT"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="HT" type2="HT"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="NAP" type2="NAP"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CAPO" type2="CAPO"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CAPM" type2="CAPM"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CAPP" type2="CAPP"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="HAP" type2="HAP"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="NAQ" type2="NAQ"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CAQ" type2="CAQ"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="C1H" type2="C1H"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="CFH" type2="CFH"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="CTF" type2="CTF"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="CSF" type2="CSF"/>
+    <LJ126Term epsilon="0.22175" sigma="0.29500000000000004" type1="F" type2="F"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="N4" type2="N4"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="N3" type2="N3"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="H3" type2="H3"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="CTO" type2="CTO"/>
+    <LJ126Term epsilon="0.12552" sigma="0.25" type1="H1O" type2="H1O"/>
+    <LJ126Term epsilon="0.71128" sigma="0.312" type1="OH" type2="OH"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="HO" type2="HO"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="C2O" type2="C2O"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="COL" type2="COL"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="NG" type2="NG"/>
+    <LJ126Term epsilon="0.209" sigma="0.225" type1="CG" type2="CG"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="HG" type2="HG"/>
+    <LJ126Term epsilon="0.8368" sigma="0.374" type1="P3" type2="P3"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="C1P" type2="C1P"/>
+    <LJ126Term epsilon="0.07648" sigma="0.21259999999999998" type1="Li" type2="Li"/>
+    <LJ126Term epsilon="0.0116" sigma="0.333" type1="Na" type2="Na"/>
+    <LJ126Term epsilon="0.3975" sigma="0.358" type1="B" type2="B"/>
+    <LJ126Term epsilon="0.2552" sigma="0.312" type1="FB" type2="FB"/>
+    <LJ126Term epsilon="0.8368" sigma="0.374" type1="P" type2="P"/>
+    <LJ126Term epsilon="0.2552" sigma="0.312" type1="FP" type2="FP"/>
+    <LJ126Term epsilon="0.83" sigma="0.365" type1="Cl" type2="Cl"/>
+    <LJ126Term epsilon="0.86" sigma="0.397" type1="Br" type2="Br"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="CBT" type2="CBT"/>
+    <LJ126Term epsilon="1.046" sigma="0.355" type1="SBT" type2="SBT"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="NBT" type2="NBT"/>
+    <LJ126Term epsilon="0.83736" sigma="0.315" type1="OBT" type2="OBT"/>
+    <LJ126Term epsilon="0.2554" sigma="0.31179999999999997" type1="F1" type2="F1"/>
+    <LJ126Term epsilon="0.83736" sigma="0.315" type1="OTF" type2="OTF"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="C1F" type2="C1F"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="CEF" type2="CEF"/>
+    <LJ126Term epsilon="0.2554" sigma="0.31179999999999997" type1="FSI" type2="FSI"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="N3A" type2="N3A"/>
+    <LJ126Term epsilon="0.27614" sigma="0.32999999999999996" type1="CZA" type2="CZA"/>
+    <LJ126Term epsilon="0.71128" sigma="0.32" type1="NZA" type2="NZA"/>
+    <LJ126Term epsilon="0.87864" sigma="0.296" type1="O2" type2="O2"/>
+    <LJ126Term epsilon="0.43932" sigma="0.375" type1="CO2" type2="CO2"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="CTA" type2="CTA"/>
+    <LJ126Term epsilon="0.87864" sigma="0.296" type1="O2F" type2="O2F"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="CFA" type2="CFA"/>
+    <LJ126Term epsilon="0.22175" sigma="0.29500000000000004" type1="FFA" type2="FFA"/>
+    <LJ126Term epsilon="1.046" sigma="0.355" type1="SO" type2="SO"/>
+    <LJ126Term epsilon="0.837" sigma="0.315" type1="OS4" type2="OS4"/>
+    <LJ126Term epsilon="0.586" sigma="0.29" type1="OC4" type2="OC4"/>
+    <LJ126Term epsilon="0.276" sigma="0.35" type1="CS4" type2="CS4"/>
+    <LJ126Term epsilon="0.126" sigma="0.25" type1="HS4" type2="HS4"/>
+    <LJ126Term epsilon="0.837" sigma="0.315" type1="OS3" type2="OS3"/>
+    <LJ126Term epsilon="0.276" sigma="0.35" type1="CS3" type2="CS3"/>
+    <LJ126Term epsilon="0.126" sigma="0.25" type1="HS3" type2="HS3"/>
+    <LJ126Term epsilon="1.046" sigma="0.355" type1="SK" type2="SK"/>
+    <LJ126Term epsilon="0.3598" sigma="0.33999999999999997" type1="CK" type2="CK"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="NK" type2="NK"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C3A" type2="C3A"/>
+    <LJ126Term epsilon="0.27614" sigma="0.32999999999999996" type1="CN" type2="CN"/>
+    <LJ126Term epsilon="0.71128" sigma="0.32" type1="NC" type2="NC"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CAPS" type2="CAPS"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CAMS" type2="CAMS"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CAOS" type2="CAOS"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="CATS" type2="CATS"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="CTTS" type2="CTTS"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="HATS" type2="HATS"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="HTS" type2="HTS"/>
+    <LJ126Term epsilon="0.71128" sigma="0.312" type1="O00D" type2="O00D"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C01D" type2="C01D"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C02D" type2="C02D"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C03D" type2="C03D"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C04D" type2="C04D"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C05D" type2="C05D"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="N06D" type2="N06D"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="H07D" type2="H07D"/>
+    <LJ126Term epsilon="0.33472" sigma="0.35" type1="C08D" type2="C08D"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C09D" type2="C09D"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C0AD" type2="C0AD"/>
+    <LJ126Term epsilon="0.71128" sigma="0.312" type1="O0BD" type2="O0BD"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="H0CD" type2="H0CD"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0DD" type2="H0DD"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0ED" type2="H0ED"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0FD" type2="H0FD"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0GD" type2="H0GD"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="H0HD" type2="H0HD"/>
+    <LJ126Term epsilon="0.87864" sigma="0.296" type1="O00I" type2="O00I"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C01I" type2="C01I"/>
+    <LJ126Term epsilon="0.31798" sigma="0.355" type1="C02I" type2="C02I"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C03I" type2="C03I"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C04I" type2="C04I"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C05I" type2="C05I"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="N06I" type2="N06I"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="H07I" type2="H07I"/>
+    <LJ126Term epsilon="0.33472" sigma="0.35" type1="C08I" type2="C08I"/>
+    <LJ126Term epsilon="0.31798" sigma="0.355" type1="C09I" type2="C09I"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C0AI" type2="C0AI"/>
+    <LJ126Term epsilon="0.87864" sigma="0.296" type1="O0BI" type2="O0BI"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0CI" type2="H0CI"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0DI" type2="H0DI"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0EI" type2="H0EI"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0FI" type2="H0FI"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C00P" type2="C00P"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C01P" type2="C01P"/>
+    <LJ126Term epsilon="0.31798" sigma="0.355" type1="C02P" type2="C02P"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C03P" type2="C03P"/>
+    <LJ126Term epsilon="0.33472" sigma="0.35" type1="C04P" type2="C04P"/>
+    <LJ126Term epsilon="0.31798" sigma="0.355" type1="C05P" type2="C05P"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C06P" type2="C06P"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C07P" type2="C07P"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="N08P" type2="N08P"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C09P" type2="C09P"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C0AP" type2="C0AP"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C0BP" type2="C0BP"/>
+    <LJ126Term epsilon="0.33472" sigma="0.35" type1="C0CP" type2="C0CP"/>
+    <LJ126Term epsilon="0.71128" sigma="0.325" type1="N0DP" type2="N0DP"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C0EP" type2="C0EP"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C0FP" type2="C0FP"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C0GP" type2="C0GP"/>
+    <LJ126Term epsilon="0.87864" sigma="0.296" type1="O0HP" type2="O0HP"/>
+    <LJ126Term epsilon="0.87864" sigma="0.296" type1="O0IP" type2="O0IP"/>
+    <LJ126Term epsilon="0.71128" sigma="0.312" type1="O0JP" type2="O0JP"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="H0KP" type2="H0KP"/>
+    <LJ126Term epsilon="0.71128" sigma="0.312" type1="O0MP" type2="O0MP"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="H0NP" type2="H0NP"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0OP" type2="H0OP"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0PP" type2="H0PP"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0QP" type2="H0QP"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0RP" type2="H0RP"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C0SP" type2="C0SP"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="H0TP" type2="H0TP"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0UP" type2="H0UP"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0VP" type2="H0VP"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="H0WP" type2="H0WP"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="H00M" type2="H00M"/>
+    <LJ126Term epsilon="0.71128" sigma="0.312" type1="O01M" type2="O01M"/>
+    <LJ126Term epsilon="0.31798" sigma="0.355" type1="C02M" type2="C02M"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C03M" type2="C03M"/>
+    <LJ126Term epsilon="0.31798" sigma="0.355" type1="C04M" type2="C04M"/>
+    <LJ126Term epsilon="0.87864" sigma="0.296" type1="O05M" type2="O05M"/>
+    <LJ126Term epsilon="0.31798" sigma="0.355" type1="C06M" type2="C06M"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H07M" type2="H07M"/>
+    <LJ126Term epsilon="0.31798" sigma="0.355" type1="C08M" type2="C08M"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H09M" type2="H09M"/>
+    <LJ126Term epsilon="0.33472" sigma="0.35" type1="C0AM" type2="C0AM"/>
+    <LJ126Term epsilon="0.31798" sigma="0.355" type1="C0BM" type2="C0BM"/>
+    <LJ126Term epsilon="0.71128" sigma="0.32999999999999996" type1="N0CM" type2="N0CM"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0DM" type2="H0DM"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="C0EM" type2="C0EM"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="H0FM" type2="H0FM"/>
+    <LJ126Term epsilon="0.12552" sigma="0.25" type1="H0GM" type2="H0GM"/>
+    <LJ126Term epsilon="0.27614" sigma="0.35" type1="C0HM" type2="C0HM"/>
+    <LJ126Term epsilon="0.12552" sigma="0.25" type1="H0IM" type2="H0IM"/>
+    <LJ126Term epsilon="0.71128" sigma="0.32999999999999996" type1="N0JM" type2="N0JM"/>
+    <LJ126Term epsilon="0.31798" sigma="0.355" type1="C0KM" type2="C0KM"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="H0MM" type2="H0MM"/>
+    <LJ126Term epsilon="0.33472" sigma="0.35" type1="C0NM" type2="C0NM"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0OM" type2="H0OM"/>
+    <LJ126Term epsilon="0.31798" sigma="0.355" type1="C0PM" type2="C0PM"/>
+    <LJ126Term epsilon="0.31798" sigma="0.355" type1="C0QM" type2="C0QM"/>
+    <LJ126Term epsilon="0.31798" sigma="0.355" type1="C0RM" type2="C0RM"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0SM" type2="H0SM"/>
+    <LJ126Term epsilon="0.29288" sigma="0.355" type1="C0TM" type2="C0TM"/>
+    <LJ126Term epsilon="0.12552" sigma="0.242" type1="H0UM" type2="H0UM"/>
+    <LJ126Term epsilon="0.31798" sigma="0.355" type1="C0VM" type2="C0VM"/>
+    <LJ126Term epsilon="0.87864" sigma="0.296" type1="O0WM" type2="O0WM"/>
+    <LJ126Term epsilon="0.71128" sigma="0.312" type1="O0XM" type2="O0XM"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="H0YM" type2="H0YM"/>
+    <LJ126Term epsilon="0.0" sigma="0.0" type1="DP_" type2="DP_"/>
+  </VdwTerms>
+  <PairwiseVdwTerms/>
+  <BondTerms>
+    <HarmonicBondTerm fixed="True" k="142250.0" length="0.10900000000000001" type1="CT" type2="HC"/>
+    <HarmonicBondTerm fixed="False" k="112100.0" length="0.15289999999999998" type1="CT" type2="CT"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.13999999999999999" type1="CA" type2="CA"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="CA" type2="HA"/>
+    <HarmonicBondTerm fixed="False" k="132635.0" length="0.151" type1="CA" type2="CT"/>
+    <HarmonicBondTerm fixed="False" k="202100.0" length="0.134" type1="CA" type2="NA"/>
+    <HarmonicBondTerm fixed="True" k="142250.0" length="0.10800000000000001" type1="CR" type2="HA"/>
+    <HarmonicBondTerm fixed="True" k="142250.0" length="0.10800000000000001" type1="CW" type2="HA"/>
+    <HarmonicBondTerm fixed="False" k="199600.0" length="0.1315" type1="CR" type2="NA"/>
+    <HarmonicBondTerm fixed="False" k="178700.0" length="0.13779999999999998" type1="CW" type2="NA"/>
+    <HarmonicBondTerm fixed="False" k="217600.0" length="0.1341" type1="CW" type2="CW"/>
+    <HarmonicBondTerm fixed="False" k="141000.0" length="0.1466" type1="CT" type2="NA"/>
+    <HarmonicBondTerm fixed="False" k="181600.0" length="0.101" type1="HA" type2="NA"/>
+    <HarmonicBondTerm fixed="False" k="132650.0" length="0.151" type1="CR" type2="CT"/>
+    <HarmonicBondTerm fixed="False" k="112130.0" length="0.15289999999999998" type1="CF" type2="CT"/>
+    <HarmonicBondTerm fixed="False" k="153555.0" length="0.1332" type1="CF" type2="F"/>
+    <HarmonicBondTerm fixed="False" k="112130.0" length="0.15289999999999998" type1="CF" type2="CF"/>
+    <HarmonicBondTerm fixed="False" k="159830.0" length="0.14479999999999998" type1="CT" type2="NT"/>
+    <HarmonicBondTerm fixed="True" k="181600.0" length="0.101" type1="HN" type2="NT"/>
+    <HarmonicBondTerm fixed="True" k="181600.0" length="0.101" type1="HG" type2="NG"/>
+    <HarmonicBondTerm fixed="False" k="201385.0" length="0.134" type1="CG" type2="NG"/>
+    <HarmonicBondTerm fixed="False" k="177500.0" length="0.181" type1="CT" type2="PT"/>
+    <HarmonicBondTerm fixed="False" k="133890.0" length="0.141" type1="CT" type2="OH"/>
+    <HarmonicBondTerm fixed="True" k="231375.0" length="0.0945" type1="HO" type2="OH"/>
+    <HarmonicBondTerm fixed="False" k="161750.0" length="0.1394" type1="B" type2="F"/>
+    <HarmonicBondTerm fixed="False" k="155000.0" length="0.16060000000000002" type1="F" type2="P"/>
+    <HarmonicBondTerm fixed="False" k="184900.0" length="0.1323" type1="CF" type2="FB"/>
+    <HarmonicBondTerm fixed="False" k="97500.0" length="0.18180000000000002" type1="CF" type2="SB"/>
+    <HarmonicBondTerm fixed="False" k="266550.0" length="0.1437" type1="OB" type2="SB"/>
+    <HarmonicBondTerm fixed="False" k="156850.0" length="0.157" type1="NB" type2="SB"/>
+    <HarmonicBondTerm fixed="False" k="93950.0" length="0.1575" type1="FB" type2="SB"/>
+    <HarmonicBondTerm fixed="False" k="210300.0" length="0.131" type1="CZ" type2="N3"/>
+    <HarmonicBondTerm fixed="False" k="271960.0" length="0.1157" type1="CZ" type2="NZ"/>
+    <HarmonicBondTerm fixed="False" k="274450.0" length="0.125" type1="CO" type2="O2"/>
+    <HarmonicBondTerm fixed="False" k="132650.0" length="0.1522" type1="CO" type2="CT"/>
+    <HarmonicBondTerm fixed="False" k="37290.0" length="0.1402" type1="CT" type2="OC"/>
+    <HarmonicBondTerm fixed="False" k="266550.0" length="0.14550000000000002" type1="OS" type2="SO"/>
+    <HarmonicBondTerm fixed="False" k="89480.0" length="0.1633" type1="OC" type2="SO"/>
+    <HarmonicBondTerm fixed="False" k="98500.0" length="0.1792" type1="CT" type2="SO"/>
+    <HarmonicBondTerm fixed="False" k="141840.0" length="0.16699999999999998" type1="CK" type2="SK"/>
+    <HarmonicBondTerm fixed="False" k="611075.0" length="0.119" type1="CK" type2="NK"/>
+    <HarmonicBondTerm fixed="False" k="167360.0" length="0.1412" type1="C3A" type2="CN"/>
+    <HarmonicBondTerm fixed="False" k="271960.0" length="0.1157" type1="CN" type2="NC"/>
+    <HarmonicBondTerm fixed="False" k="98500.0" length="0.1797" type1="CA" type2="SO"/>
+    <HarmonicBondTerm fixed="False" k="188280.0" length="0.13640000000000002" type1="C01D" type2="O00D"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.13999999999999999" type1="C01D" type2="C02D"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.13999999999999999" type1="C02D" type2="C03D"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1424" type1="C03D" type2="C04D"/>
+    <HarmonicBondTerm fixed="False" k="228444.99999999997" length="0.1367" type1="C04D" type2="C05D"/>
+    <HarmonicBondTerm fixed="False" k="178655.0" length="0.1381" type1="C05D" type2="N06D"/>
+    <HarmonicBondTerm fixed="True" k="181585.0" length="0.101" type1="H07D" type2="N06D"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1424" type1="C03D" type2="C08D"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1404" type1="C08D" type2="C09D"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.13999999999999999" type1="C01D" type2="C0AD"/>
+    <HarmonicBondTerm fixed="False" k="188280.0" length="0.13640000000000002" type1="C0AD" type2="O0BD"/>
+    <HarmonicBondTerm fixed="True" k="231375.0" length="0.0945" type1="H0CD" type2="O00D"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C02D" type2="H0DD"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C04D" type2="H0ED"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C05D" type2="H0FD"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C09D" type2="H0GD"/>
+    <HarmonicBondTerm fixed="True" k="231375.0" length="0.0945" type1="H0HD" type2="O0BD"/>
+    <HarmonicBondTerm fixed="False" k="182420.0" length="0.13740000000000002" type1="C08D" type2="N06D"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.13999999999999999" type1="C09D" type2="C0AD"/>
+    <HarmonicBondTerm fixed="False" k="238490.0" length="0.12290000000000001" type1="C01I" type2="O00I"/>
+    <HarmonicBondTerm fixed="False" k="171545.0" length="0.1444" type1="C01I" type2="C02I"/>
+    <HarmonicBondTerm fixed="False" k="178655.0" length="0.1433" type1="C02I" type2="C03I"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1424" type1="C03I" type2="C04I"/>
+    <HarmonicBondTerm fixed="False" k="228444.99999999997" length="0.1367" type1="C04I" type2="C05I"/>
+    <HarmonicBondTerm fixed="False" k="178655.0" length="0.1381" type1="C05I" type2="N06I"/>
+    <HarmonicBondTerm fixed="True" k="181585.0" length="0.101" type1="H07I" type2="N06I"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1424" type1="C03I" type2="C08I"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1404" type1="C08I" type2="C09I"/>
+    <HarmonicBondTerm fixed="False" k="146440.0" length="0.151" type1="C01I" type2="C0AI"/>
+    <HarmonicBondTerm fixed="False" k="238490.0" length="0.12290000000000001" type1="C0AI" type2="O0BI"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C02I" type2="H0CI"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C04I" type2="H0DI"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C05I" type2="H0EI"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C09I" type2="H0FI"/>
+    <HarmonicBondTerm fixed="False" k="182420.0" length="0.13740000000000002" type1="C08I" type2="N06I"/>
+    <HarmonicBondTerm fixed="False" k="171545.0" length="0.1444" type1="C09I" type2="C0AI"/>
+    <HarmonicBondTerm fixed="False" k="146440.0" length="0.151" type1="C00P" type2="C01P"/>
+    <HarmonicBondTerm fixed="False" k="171545.0" length="0.1444" type1="C00P" type2="C02P"/>
+    <HarmonicBondTerm fixed="False" k="178655.0" length="0.1433" type1="C02P" type2="C03P"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1424" type1="C03P" type2="C04P"/>
+    <HarmonicBondTerm fixed="False" k="171545.0" length="0.1444" type1="C01P" type2="C05P"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1424" type1="C03P" type2="C06P"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1424" type1="C06P" type2="C07P"/>
+    <HarmonicBondTerm fixed="False" k="182420.0" length="0.13740000000000002" type1="C04P" type2="N08P"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1424" type1="C07P" type2="C09P"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1424" type1="C09P" type2="C0AP"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1424" type1="C0AP" type2="C0BP"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1424" type1="C0BP" type2="C0CP"/>
+    <HarmonicBondTerm fixed="False" k="178655.0" length="0.1381" type1="C09P" type2="N0DP"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.13999999999999999" type1="C0BP" type2="C0EP"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.13999999999999999" type1="C0EP" type2="C0FP"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.13999999999999999" type1="C0FP" type2="C0GP"/>
+    <HarmonicBondTerm fixed="False" k="238490.0" length="0.12290000000000001" type1="C00P" type2="O0HP"/>
+    <HarmonicBondTerm fixed="False" k="238490.0" length="0.12290000000000001" type1="C01P" type2="O0IP"/>
+    <HarmonicBondTerm fixed="False" k="188280.0" length="0.13640000000000002" type1="C0FP" type2="O0JP"/>
+    <HarmonicBondTerm fixed="True" k="231375.0" length="0.0945" type1="H0KP" type2="O0JP"/>
+    <HarmonicBondTerm fixed="False" k="188280.0" length="0.13640000000000002" type1="C0GP" type2="O0MP"/>
+    <HarmonicBondTerm fixed="True" k="181585.0" length="0.101" type1="H0NP" type2="N0DP"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C02P" type2="H0OP"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C06P" type2="H0PP"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C05P" type2="H0QP"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C0AP" type2="H0RP"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1404" type1="C0CP" type2="C0SP"/>
+    <HarmonicBondTerm fixed="True" k="231375.0" length="0.0945" type1="H0TP" type2="O0MP"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C0SP" type2="H0UP"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C0EP" type2="H0VP"/>
+    <HarmonicBondTerm fixed="True" k="181585.0" length="0.101" type1="H0WP" type2="N08P"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.1404" type1="C04P" type2="C05P"/>
+    <HarmonicBondTerm fixed="False" k="178655.0" length="0.1381" type1="C07P" type2="N08P"/>
+    <HarmonicBondTerm fixed="False" k="182420.0" length="0.13740000000000002" type1="C0CP" type2="N0DP"/>
+    <HarmonicBondTerm fixed="False" k="196230.0" length="0.13999999999999999" type1="C0GP" type2="C0SP"/>
+    <HarmonicBondTerm fixed="True" k="231375.0" length="0.0945" type1="H00M" type2="O01M"/>
+    <HarmonicBondTerm fixed="False" k="188280.0" length="0.137" type1="C02M" type2="O01M"/>
+    <HarmonicBondTerm fixed="False" k="171545.0" length="0.1444" type1="C02M" type2="C03M"/>
+    <HarmonicBondTerm fixed="False" k="229700.0" length="0.134" type1="C02M" type2="C04M"/>
+    <HarmonicBondTerm fixed="False" k="238490.0" length="0.12290000000000001" type1="C03M" type2="O05M"/>
+    <HarmonicBondTerm fixed="False" k="171545.0" length="0.1444" type1="C03M" type2="C06M"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C04M" type2="H07M"/>
+    <HarmonicBondTerm fixed="False" k="229700.0" length="0.134" type1="C04M" type2="C08M"/>
+    <HarmonicBondTerm fixed="True" k="172600.0" length="0.10500000000000001" type1="C06M" type2="H09M"/>
+    <HarmonicBondTerm fixed="False" k="178655.0" length="0.1433" type1="C06M" type2="C0AM"/>
+    <HarmonicBondTerm fixed="False" k="229700.0" length="0.134" type1="C08M" type2="C0BM"/>
+    <HarmonicBondTerm fixed="False" k="132635.0" length="0.151" type1="C0AM" type2="N0CM"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C0BM" type2="H0DM"/>
+    <HarmonicBondTerm fixed="False" k="132635.0" length="0.151" type1="C0BM" type2="C0EM"/>
+    <HarmonicBondTerm fixed="True" k="181585.0" length="0.101" type1="H0FM" type2="N0CM"/>
+    <HarmonicBondTerm fixed="True" k="142255.0" length="0.10900000000000001" type1="C0EM" type2="H0GM"/>
+    <HarmonicBondTerm fixed="False" k="112130.0" length="0.15289999999999998" type1="C0EM" type2="C0HM"/>
+    <HarmonicBondTerm fixed="True" k="142255.0" length="0.10900000000000001" type1="C0HM" type2="H0IM"/>
+    <HarmonicBondTerm fixed="False" k="159830.0" length="0.14479999999999998" type1="C0HM" type2="N0JM"/>
+    <HarmonicBondTerm fixed="False" k="132635.0" length="0.151" type1="C0HM" type2="C0KM"/>
+    <HarmonicBondTerm fixed="True" k="181585.0" length="0.101" type1="H0MM" type2="N0JM"/>
+    <HarmonicBondTerm fixed="False" k="201250.0" length="0.134" type1="C0NM" type2="N0JM"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C0KM" type2="H0OM"/>
+    <HarmonicBondTerm fixed="False" k="229700.0" length="0.134" type1="C0KM" type2="C0PM"/>
+    <HarmonicBondTerm fixed="False" k="178655.0" length="0.1433" type1="C0NM" type2="C0QM"/>
+    <HarmonicBondTerm fixed="False" k="229700.0" length="0.134" type1="C0PM" type2="C0RM"/>
+    <HarmonicBondTerm fixed="True" k="172600.0" length="0.10500000000000001" type1="C0QM" type2="H0SM"/>
+    <HarmonicBondTerm fixed="False" k="171545.0" length="0.1444" type1="C0QM" type2="C0TM"/>
+    <HarmonicBondTerm fixed="True" k="153555.0" length="0.10800000000000001" type1="C0RM" type2="H0UM"/>
+    <HarmonicBondTerm fixed="False" k="229700.0" length="0.134" type1="C0RM" type2="C0VM"/>
+    <HarmonicBondTerm fixed="False" k="238490.0" length="0.12290000000000001" type1="C0TM" type2="O0WM"/>
+    <HarmonicBondTerm fixed="False" k="188280.0" length="0.137" type1="C0VM" type2="O0XM"/>
+    <HarmonicBondTerm fixed="True" k="231375.0" length="0.0945" type1="H0YM" type2="O0XM"/>
+    <HarmonicBondTerm fixed="False" k="178655.0" length="0.1433" type1="C08M" type2="C0AM"/>
+    <HarmonicBondTerm fixed="False" k="159830.0" length="0.14479999999999998" type1="C0EM" type2="N0CM"/>
+    <HarmonicBondTerm fixed="False" k="178655.0" length="0.1433" type1="C0NM" type2="C0PM"/>
+    <HarmonicBondTerm fixed="False" k="171545.0" length="0.1444" type1="C0TM" type2="C0VM"/>
+  </BondTerms>
+  <AngleTerms>
+    <HarmonicAngleTerm fixed="False" k="244.15" theta="112.7" type1="CT" type2="CT" type3="CT"/>
+    <HarmonicAngleTerm fixed="False" k="156.9" theta="110.7" type1="CT" type2="CT" type3="HC"/>
+    <HarmonicAngleTerm fixed="False" k="138.05" theta="107.8" type1="HC" type2="CT" type3="HC"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="CA" type2="CA" type3="HA"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="CA" type2="CA" type3="CA"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="120.0" type1="CA" type2="CA" type3="CT"/>
+    <HarmonicAngleTerm fixed="False" k="209.2" theta="109.5" type1="CA" type2="CT" type3="HC"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="120.4" type1="CA" type2="NA" type3="CA"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="119.8" type1="CA" type2="NA" type3="CT"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="120.0" type1="CA" type2="CA" type3="NA"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="HA" type2="CA" type3="NA"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="108.0" type1="CR" type2="NA" type3="CW"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="125.6" type1="CT" type2="NA" type3="CW"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="126.4" type1="CR" type2="NA" type3="CT"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="125.1" type1="HA" type2="CR" type3="NA"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="109.8" type1="NA" type2="CR" type3="NA"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="107.1" type1="CW" type2="CW" type3="NA"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="122.0" type1="HA" type2="CW" type3="NA"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="130.9" type1="CW" type2="CW" type3="HA"/>
+    <HarmonicAngleTerm fixed="False" k="156.9" theta="110.7" type1="HC" type2="CT" type3="NA"/>
+    <HarmonicAngleTerm fixed="False" k="244.15" theta="112.7" type1="CT" type2="CT" type3="NA"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="125.4" type1="CR" type2="NA" type3="HA"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="126.6" type1="CW" type2="NA" type3="HA"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="125.8" type1="CT" type2="CR" type3="NA"/>
+    <HarmonicAngleTerm fixed="False" k="156.9" theta="110.7" type1="CR" type2="CT" type3="HC"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="111.2" type1="CA" type2="CT" type3="NA"/>
+    <HarmonicAngleTerm fixed="False" k="156.9" theta="110.7" type1="CF" type2="CT" type3="HC"/>
+    <HarmonicAngleTerm fixed="False" k="209.2" theta="109.5" type1="CT" type2="CF" type3="F"/>
+    <HarmonicAngleTerm fixed="False" k="244.15" theta="112.7" type1="CF" type2="CF" type3="CT"/>
+    <HarmonicAngleTerm fixed="False" k="244.15" theta="112.7" type1="CF" type2="CT" type3="CT"/>
+    <HarmonicAngleTerm fixed="False" k="322.15" theta="109.1" type1="F" type2="CF" type3="F"/>
+    <HarmonicAngleTerm fixed="False" k="209.2" theta="109.5" type1="CF" type2="CF" type3="F"/>
+    <HarmonicAngleTerm fixed="False" k="244.15" theta="112.7" type1="CF" type2="CF" type3="CF"/>
+    <HarmonicAngleTerm fixed="False" k="235.15" theta="109.5" type1="CT" type2="CT" type3="NT"/>
+    <HarmonicAngleTerm fixed="False" k="216.75" theta="107.2" type1="CT" type2="NT" type3="CT"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="109.5" type1="HC" type2="CT" type3="NT"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="109.5" type1="CT" type2="NT" type3="HN"/>
+    <HarmonicAngleTerm fixed="False" k="146.55" theta="121.6" type1="CG" type2="NG" type3="HG"/>
+    <HarmonicAngleTerm fixed="False" k="146.55" theta="116.8" type1="HG" type2="NG" type3="HG"/>
+    <HarmonicAngleTerm fixed="False" k="293.1" theta="120.0" type1="NG" type2="CG" type3="NG"/>
+    <HarmonicAngleTerm fixed="False" k="303.9" theta="109.5" type1="CT" type2="PT" type3="CT"/>
+    <HarmonicAngleTerm fixed="False" k="194.95" theta="110.1" type1="HC" type2="CT" type3="PT"/>
+    <HarmonicAngleTerm fixed="False" k="254.55" theta="115.2" type1="CT" type2="CT" type3="PT"/>
+    <HarmonicAngleTerm fixed="False" k="209.2" theta="109.5" type1="CT" type2="CT" type3="OH"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="109.5" type1="HC" type2="CT" type3="OH"/>
+    <HarmonicAngleTerm fixed="False" k="230.1" theta="108.5" type1="CT" type2="OH" type3="HO"/>
+    <HarmonicAngleTerm fixed="False" k="334.75" theta="109.5" type1="F" type2="B" type3="F"/>
+    <HarmonicAngleTerm fixed="False" k="582.5" theta="90.0" type1="F" type2="P" type3="F"/>
+    <HarmonicAngleTerm fixed="False" k="390.5" theta="107.1" type1="FB" type2="CF" type3="FB"/>
+    <HarmonicAngleTerm fixed="False" k="347.0" theta="111.7" type1="FB" type2="CF" type3="SB"/>
+    <HarmonicAngleTerm fixed="False" k="484.5" theta="118.5" type1="OB" type2="SB" type3="OB"/>
+    <HarmonicAngleTerm fixed="False" k="435.0" theta="102.6" type1="CF" type2="SB" type3="OB"/>
+    <HarmonicAngleTerm fixed="False" k="394.5" theta="113.6" type1="NB" type2="SB" type3="OB"/>
+    <HarmonicAngleTerm fixed="False" k="382.0" theta="103.5" type1="CF" type2="SB" type3="NB"/>
+    <HarmonicAngleTerm fixed="False" k="335.5" theta="125.6" type1="SB" type2="NB" type3="SB"/>
+    <HarmonicAngleTerm fixed="False" k="209.2" theta="115.9" type1="CF" type2="CF" type3="SB"/>
+    <HarmonicAngleTerm fixed="False" k="209.2" theta="109.5" type1="CF" type2="CF" type3="FB"/>
+    <HarmonicAngleTerm fixed="False" k="538.5" theta="104.1" type1="FB" type2="SB" type3="OB"/>
+    <HarmonicAngleTerm fixed="False" k="451.0" theta="103.0" type1="FB" type2="SB" type3="NB"/>
+    <HarmonicAngleTerm fixed="False" k="181.0" theta="118.5" type1="CZ" type2="N3" type3="CZ"/>
+    <HarmonicAngleTerm fixed="False" k="212.5" theta="175.2" type1="N3" type2="CZ" type3="NZ"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="126.0" type1="O2" type2="CO" type3="O2"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="117.0" type1="CT" type2="CO" type3="O2"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="109.5" type1="CO" type2="CT" type3="HC"/>
+    <HarmonicAngleTerm fixed="False" k="209.2" theta="109.5" type1="CO" type2="CF" type3="F"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="117.0" type1="CF" type2="CO" type3="O2"/>
+    <HarmonicAngleTerm fixed="False" k="484.5" theta="114.0" type1="OS" type2="SO" type3="OS"/>
+    <HarmonicAngleTerm fixed="False" k="619.8" theta="103.5" type1="OC" type2="SO" type3="OS"/>
+    <HarmonicAngleTerm fixed="False" k="150.25" theta="116.6" type1="CT" type2="OC" type3="SO"/>
+    <HarmonicAngleTerm fixed="False" k="244.35" theta="109.7" type1="HC" type2="CT" type3="OC"/>
+    <HarmonicAngleTerm fixed="False" k="382.8" theta="107.8" type1="CT" type2="CT" type3="OC"/>
+    <HarmonicAngleTerm fixed="False" k="435.0" theta="104.5" type1="CT" type2="SO" type3="OS"/>
+    <HarmonicAngleTerm fixed="False" k="195.15" theta="107.3" type1="HC" type2="CT" type3="SO"/>
+    <HarmonicAngleTerm fixed="False" k="291.5" theta="113.3" type1="CT" type2="CT" type3="SO"/>
+    <HarmonicAngleTerm fixed="False" k="325.95" theta="180.0" type1="NK" type2="CK" type3="SK"/>
+    <HarmonicAngleTerm fixed="False" k="627.6" theta="180.0" type1="C3A" type2="CN" type3="NC"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="120.0" type1="CN" type2="C3A" type3="CN"/>
+    <HarmonicAngleTerm fixed="False" k="355.64" theta="120.5" type1="CA" type2="CA" type3="SO"/>
+    <HarmonicAngleTerm fixed="False" k="435.0" theta="104.2" type1="CA" type2="SO" type3="OS"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="120.0" type1="C02D" type2="C01D" type3="O00D"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C01D" type2="C02D" type3="C03D"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C02D" type2="C03D" type3="C04D"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="107.3" type1="C03D" type2="C04D" type3="C05D"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="107.7" type1="C04D" type2="C05D" type3="N06D"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C05D" type2="N06D" type3="H07D"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C02D" type2="C03D" type3="C08D"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="134.9" type1="C03D" type2="C08D" type3="C09D"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="120.0" type1="C0AD" type2="C01D" type3="O00D"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="120.0" type1="C01D" type2="C0AD" type3="O0BD"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="113.0" type1="C01D" type2="O00D" type3="H0CD"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C01D" type2="C02D" type3="H0DD"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="127.5" type1="C03D" type2="C04D" type3="H0ED"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="132.1" type1="C04D" type2="C05D" type3="H0FD"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C08D" type2="C09D" type3="H0GD"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="113.0" type1="C0AD" type2="O0BD" type3="H0HD"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C01D" type2="C0AD" type3="C09D"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="107.3" type1="C04D" type2="C03D" type3="C08D"/>
+    <HarmonicAngleTerm fixed="False" k="125.5" theta="125.8" type1="C08D" type2="N06D" type3="H07D"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="125.7" type1="C05D" type2="C04D" type3="H0ED"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C02D" type2="C01D" type3="C0AD"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="107.7" type1="C03D" type2="C08D" type3="N06D"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="120.0" type1="C09D" type2="C0AD" type3="O0BD"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C0AD" type2="C09D" type3="H0GD"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="121.6" type1="H0FD" type2="C05D" type3="N06D"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="109.8" type1="C05D" type2="N06D" type3="C08D"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C08D" type2="C09D" type3="C0AD"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C03D" type2="C02D" type3="H0DD"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="108.7" type1="C09D" type2="C08D" type3="N06D"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="125.3" type1="C02I" type2="C01I" type3="O00I"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="120.0" type1="C01I" type2="C02I" type3="C03I"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C02I" type2="C03I" type3="C04I"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="107.3" type1="C03I" type2="C04I" type3="C05I"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="107.7" type1="C04I" type2="C05I" type3="N06I"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C05I" type2="N06I" type3="H07I"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C02I" type2="C03I" type3="C08I"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="134.9" type1="C03I" type2="C08I" type3="C09I"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="121.4" type1="C0AI" type2="C01I" type3="O00I"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="121.4" type1="C01I" type2="C0AI" type3="O0BI"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C01I" type2="C02I" type3="H0CI"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="127.5" type1="C03I" type2="C04I" type3="H0DI"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="132.1" type1="C04I" type2="C05I" type3="H0EI"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C08I" type2="C09I" type3="H0FI"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C0AI" type2="C09I" type3="H0FI"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="121.6" type1="H0EI" type2="C05I" type3="N06I"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="125.7" type1="C05I" type2="C04I" type3="H0DI"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="107.3" type1="C04I" type2="C03I" type3="C08I"/>
+    <HarmonicAngleTerm fixed="False" k="125.5" theta="125.8" type1="C08I" type2="N06I" type3="H07I"/>
+    <HarmonicAngleTerm fixed="False" k="292.45" theta="118.2" type1="C01I" type2="C0AI" type3="C09I"/>
+    <HarmonicAngleTerm fixed="False" k="292.45" theta="118.2" type1="C02I" type2="C01I" type3="C0AI"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="120.0" type1="C08I" type2="C09I" type3="C0AI"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="107.7" type1="C03I" type2="C08I" type3="N06I"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="125.3" type1="C09I" type2="C0AI" type3="O0BI"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="109.8" type1="C05I" type2="N06I" type3="C08I"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C03I" type2="C02I" type3="H0CI"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="121.5" type1="C09I" type2="C08I" type3="N06I"/>
+    <HarmonicAngleTerm fixed="False" k="292.45" theta="118.2" type1="C01P" type2="C00P" type3="C02P"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="120.0" type1="C00P" type2="C02P" type3="C03P"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C02P" type2="C03P" type3="C04P"/>
+    <HarmonicAngleTerm fixed="False" k="292.45" theta="118.2" type1="C00P" type2="C01P" type3="C05P"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C02P" type2="C03P" type3="C06P"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C03P" type2="C06P" type3="C07P"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="107.7" type1="C03P" type2="C04P" type3="N08P"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C06P" type2="C07P" type3="C09P"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C07P" type2="C09P" type3="C0AP"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C09P" type2="C0AP" type3="C0BP"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="107.3" type1="C0AP" type2="C0BP" type3="C0CP"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="108.7" type1="C07P" type2="C09P" type3="N0DP"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C0AP" type2="C0BP" type3="C0EP"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C0BP" type2="C0EP" type3="C0FP"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C0EP" type2="C0FP" type3="C0GP"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="121.4" type1="C01P" type2="C00P" type3="O0HP"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="121.4" type1="C00P" type2="C01P" type3="O0IP"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="120.0" type1="C0EP" type2="C0FP" type3="O0JP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="113.0" type1="C0FP" type2="O0JP" type3="H0KP"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="120.0" type1="C0FP" type2="C0GP" type3="O0MP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="118.0" type1="C09P" type2="N0DP" type3="H0NP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C00P" type2="C02P" type3="H0OP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="127.5" type1="C03P" type2="C06P" type3="H0PP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C01P" type2="C05P" type3="H0QP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="127.5" type1="C09P" type2="C0AP" type3="H0RP"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="134.9" type1="C0BP" type2="C0CP" type3="C0SP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="113.0" type1="C0GP" type2="O0MP" type3="H0TP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C0CP" type2="C0SP" type3="H0UP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C0BP" type2="C0EP" type3="H0VP"/>
+    <HarmonicAngleTerm fixed="False" k="125.5" theta="125.8" type1="C04P" type2="N08P" type3="H0WP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C0GP" type2="C0SP" type3="H0UP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="127.5" type1="C0BP" type2="C0AP" type3="H0RP"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="107.3" type1="C04P" type2="C03P" type3="C06P"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="125.3" type1="C05P" type2="C01P" type3="O0IP"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="134.9" type1="C03P" type2="C04P" type3="C05P"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="108.7" type1="C0AP" type2="C09P" type3="N0DP"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="125.3" type1="C02P" type2="C00P" type3="O0HP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C0FP" type2="C0EP" type3="H0VP"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="108.7" type1="C09P" type2="C07P" type3="N08P"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C0CP" type2="C0SP" type3="C0GP"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="120.0" type1="C0GP" type2="C0FP" type3="O0JP"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="120.0" type1="C0SP" type2="C0GP" type3="O0MP"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="125.2" type1="C04P" type2="N08P" type3="C07P"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C04P" type2="C05P" type3="H0QP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="127.5" type1="C07P" type2="C06P" type3="H0PP"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="107.7" type1="C0BP" type2="C0CP" type3="N0DP"/>
+    <HarmonicAngleTerm fixed="False" k="125.5" theta="125.8" type1="C0CP" type2="N0DP" type3="H0NP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C03P" type2="C02P" type3="H0OP"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C0CP" type2="C0BP" type3="C0EP"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="121.5" type1="C05P" type2="C04P" type3="N08P"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="120.0" type1="C01P" type2="C05P" type3="C04P"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="120.0" type1="C0FP" type2="C0GP" type3="C0SP"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="125.2" type1="C09P" type2="N0DP" type3="C0CP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="118.0" type1="C07P" type2="N08P" type3="H0WP"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="108.7" type1="C06P" type2="C07P" type3="N08P"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="108.7" type1="C0SP" type2="C0CP" type3="N0DP"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="109.0" type1="C02M" type2="O01M" type3="H00M"/>
+    <HarmonicAngleTerm fixed="False" k="252.85" theta="118.8" type1="C03M" type2="C02M" type3="O01M"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="123.0" type1="C04M" type2="C02M" type3="O01M"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="125.3" type1="C02M" type2="C03M" type3="O05M"/>
+    <HarmonicAngleTerm fixed="False" k="292.45" theta="118.2" type1="C02M" type2="C03M" type3="C06M"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="120.0" type1="C02M" type2="C04M" type3="H07M"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="117.0" type1="C02M" type2="C04M" type3="C08M"/>
+    <HarmonicAngleTerm fixed="False" k="251.05" theta="122.3" type1="C03M" type2="C06M" type3="H09M"/>
+    <HarmonicAngleTerm fixed="False" k="251.05" theta="122.3" type1="C03M" type2="C06M" type3="C0AM"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="117.0" type1="C04M" type2="C08M" type3="C0BM"/>
+    <HarmonicAngleTerm fixed="False" k="323.3" theta="119.7" type1="C06M" type2="C0AM" type3="N0CM"/>
+    <HarmonicAngleTerm fixed="False" k="252.85" theta="118.8" type1="C08M" type2="C0BM" type3="H0DM"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="124.0" type1="C08M" type2="C0BM" type3="C0EM"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="116.0" type1="C0AM" type2="N0CM" type3="H0FM"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="109.5" type1="C0BM" type2="C0EM" type3="H0GM"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="111.1" type1="C0BM" type2="C0EM" type3="C0HM"/>
+    <HarmonicAngleTerm fixed="False" k="156.9" theta="110.7" type1="C0EM" type2="C0HM" type3="H0IM"/>
+    <HarmonicAngleTerm fixed="False" k="235.15" theta="109.5" type1="C0EM" type2="C0HM" type3="N0JM"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="111.1" type1="C0EM" type2="C0HM" type3="C0KM"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="109.5" type1="C0HM" type2="N0JM" type3="H0MM"/>
+    <HarmonicAngleTerm fixed="False" k="209.2" theta="116.0" type1="C0HM" type2="N0JM" type3="C0NM"/>
+    <HarmonicAngleTerm fixed="False" k="252.85" theta="118.8" type1="C0HM" type2="C0KM" type3="H0OM"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="124.0" type1="C0HM" type2="C0KM" type3="C0PM"/>
+    <HarmonicAngleTerm fixed="False" k="323.3" theta="119.7" type1="C0QM" type2="C0NM" type3="N0JM"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="117.0" type1="C0KM" type2="C0PM" type3="C0RM"/>
+    <HarmonicAngleTerm fixed="False" k="251.05" theta="122.3" type1="C0NM" type2="C0QM" type3="H0SM"/>
+    <HarmonicAngleTerm fixed="False" k="251.05" theta="122.3" type1="C0NM" type2="C0QM" type3="C0TM"/>
+    <HarmonicAngleTerm fixed="False" k="252.85" theta="118.8" type1="C0PM" type2="C0RM" type3="H0UM"/>
+    <HarmonicAngleTerm fixed="False" k="252.85" theta="118.8" type1="C0PM" type2="C0RM" type3="C0VM"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="125.3" type1="C0QM" type2="C0TM" type3="O0WM"/>
+    <HarmonicAngleTerm fixed="False" k="292.9" theta="123.0" type1="C0RM" type2="C0VM" type3="O0XM"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="109.0" type1="C0VM" type2="O0XM" type3="H0YM"/>
+    <HarmonicAngleTerm fixed="False" k="263.6" theta="111.1" type1="C0KM" type2="C0HM" type3="N0JM"/>
+    <HarmonicAngleTerm fixed="False" k="323.3" theta="119.7" type1="C0PM" type2="C0NM" type3="N0JM"/>
+    <HarmonicAngleTerm fixed="False" k="252.85" theta="118.8" type1="C0EM" type2="C0BM" type3="H0DM"/>
+    <HarmonicAngleTerm fixed="False" k="251.05" theta="122.3" type1="C0TM" type2="C0VM" type3="O0XM"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="109.5" type1="H0GM" type2="C0EM" type3="N0CM"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="109.5" type1="C0EM" type2="N0CM" type3="H0FM"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="125.3" type1="C06M" type2="C03M" type3="O05M"/>
+    <HarmonicAngleTerm fixed="False" k="323.3" theta="119.7" type1="C06M" type2="C0AM" type3="C08M"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="120.7" type1="C0RM" type2="C0VM" type3="C0TM"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="120.7" type1="C03M" type2="C02M" type3="C04M"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="109.5" type1="H0IM" type2="C0HM" type3="N0JM"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="117.0" type1="C04M" type2="C08M" type3="C0AM"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="117.0" type1="C0KM" type2="C0PM" type3="C0NM"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="125.3" type1="C0VM" type2="C0TM" type3="O0WM"/>
+    <HarmonicAngleTerm fixed="False" k="323.3" theta="119.7" type1="C08M" type2="C0AM" type3="N0CM"/>
+    <HarmonicAngleTerm fixed="False" k="292.45" theta="118.2" type1="C0QM" type2="C0TM" type3="C0VM"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="116.0" type1="C0NM" type2="N0JM" type3="H0MM"/>
+    <HarmonicAngleTerm fixed="False" k="209.2" theta="116.0" type1="C0AM" type2="N0CM" type3="C0EM"/>
+    <HarmonicAngleTerm fixed="False" k="235.15" theta="109.5" type1="C0HM" type2="C0EM" type3="N0CM"/>
+    <HarmonicAngleTerm fixed="False" k="251.05" theta="122.3" type1="C0TM" type2="C0QM" type3="H0SM"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="117.0" type1="C0AM" type2="C08M" type3="C0BM"/>
+    <HarmonicAngleTerm fixed="False" k="334.7" theta="111.2" type1="C0BM" type2="C0EM" type3="N0CM"/>
+    <HarmonicAngleTerm fixed="False" k="252.85" theta="118.8" type1="C0VM" type2="C0RM" type3="H0UM"/>
+    <HarmonicAngleTerm fixed="False" k="355.65" theta="117.0" type1="C0NM" type2="C0PM" type3="C0RM"/>
+    <HarmonicAngleTerm fixed="False" k="252.85" theta="118.8" type1="C0PM" type2="C0KM" type3="H0OM"/>
+    <HarmonicAngleTerm fixed="False" k="146.45" theta="109.5" type1="C0KM" type2="C0HM" type3="H0IM"/>
+    <HarmonicAngleTerm fixed="False" k="323.3" theta="119.7" type1="C0PM" type2="C0NM" type3="C0QM"/>
+    <HarmonicAngleTerm fixed="False" k="252.85" theta="118.8" type1="C08M" type2="C04M" type3="H07M"/>
+    <HarmonicAngleTerm fixed="False" k="156.9" theta="110.7" type1="C0HM" type2="C0EM" type3="H0GM"/>
+    <HarmonicAngleTerm fixed="False" k="251.05" theta="122.3" type1="C0AM" type2="C06M" type3="H09M"/>
+  </AngleTerms>
+  <DihedralTerms>
+    <PeriodicDihedralTerm k_3="0.6276" phi_3="0.0" type1="HC" type2="CT" type3="CT" type4="HC"/>
+    <PeriodicDihedralTerm k_3="0.6276" phi_3="0.0" type1="CT" type2="CT" type3="CT" type4="HC"/>
+    <PeriodicDihedralTerm k_1="2.7196" k_2="-0.1046" k_3="0.4184" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="CT" type2="CT" type3="CT" type4="CT"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="CA" type2="CA" type3="CA" type4="CA"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="CA" type2="CA" type3="CA" type4="HA"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="HA" type2="CA" type3="CA" type4="HA"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="CA" type2="CA" type3="CA" type4="CT"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="CT" type2="CA" type3="CA" type4="HA"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="CA" type2="CA" type3="CA" type4="NA"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="HA" type2="CA" type3="CA" type4="NA"/>
+    <PeriodicDihedralTerm k_2="6.2760" phi_2="180.0" type1="CA" type2="CA" type3="NA" type4="CA"/>
+    <PeriodicDihedralTerm k_2="6.2760" phi_2="180.0" type1="CA" type2="NA" type3="CA" type4="HA"/>
+    <PeriodicDihedralTerm k_2="6.2760" phi_2="180.0" type1="CA" type2="CA" type3="NA" type4="CT"/>
+    <PeriodicDihedralTerm k_2="6.2760" phi_2="180.0" type1="CT" type2="NA" type3="CA" type4="HA"/>
+    <PeriodicDihedralTerm type1="CA" type2="NA" type3="CT" type4="HC"/>
+    <PeriodicDihedralTerm k_2="0.5460" k_4="0.3965" phi_2="180.0" phi_4="180.0" type1="CA" type2="NA" type3="CT" type4="CT"/>
+    <PeriodicDihedralTerm k_2="9.7300" phi_2="180.0" type1="CW" type2="NA" type3="CR" type4="NA"/>
+    <PeriodicDihedralTerm k_2="9.7300" phi_2="180.0" type1="CW" type2="NA" type3="CR" type4="HA"/>
+    <PeriodicDihedralTerm k_2="9.7300" phi_2="180.0" type1="CT" type2="NA" type3="CR" type4="NA"/>
+    <PeriodicDihedralTerm k_2="9.7300" phi_2="180.0" type1="CT" type2="NA" type3="CR" type4="HA"/>
+    <PeriodicDihedralTerm k_2="6.2760" phi_2="180.0" type1="CR" type2="NA" type3="CW" type4="CW"/>
+    <PeriodicDihedralTerm k_2="6.2760" phi_2="180.0" type1="CR" type2="NA" type3="CW" type4="HA"/>
+    <PeriodicDihedralTerm k_2="6.2760" phi_2="180.0" type1="CT" type2="NA" type3="CW" type4="CW"/>
+    <PeriodicDihedralTerm k_2="6.2760" phi_2="180.0" type1="CT" type2="NA" type3="CW" type4="HA"/>
+    <PeriodicDihedralTerm k_2="22.4900" phi_2="180.0" type1="NA" type2="CW" type3="CW" type4="NA"/>
+    <PeriodicDihedralTerm k_2="22.4900" phi_2="180.0" type1="HA" type2="CW" type3="CW" type4="NA"/>
+    <PeriodicDihedralTerm k_2="22.4900" phi_2="180.0" type1="HA" type2="CW" type3="CW" type4="HA"/>
+    <PeriodicDihedralTerm k_3="0.2595" phi_3="0.0" type1="CW" type2="NA" type3="CT" type4="HC"/>
+    <PeriodicDihedralTerm type1="CR" type2="NA" type3="CT" type4="HC"/>
+    <PeriodicDihedralTerm k_1="-3.5768" k_2="3.0532" k_3="0.3970" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="CT" type2="CT" type3="NA" type4="CW"/>
+    <PeriodicDihedralTerm k_1="-2.6345" phi_1="0.0" type1="CR" type2="NA" type3="CT" type4="CT"/>
+    <PeriodicDihedralTerm k_1="-3.7399" k_2="1.5821" k_3="-0.6013" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="CT" type2="CT" type3="CT" type4="NA"/>
+    <PeriodicDihedralTerm k_3="0.1835" phi_3="0.0" type1="HC" type2="CT" type3="CT" type4="NA"/>
+    <PeriodicDihedralTerm k_2="9.7300" phi_2="180.0" type1="HA" type2="NA" type3="CR" type4="NA"/>
+    <PeriodicDihedralTerm k_2="9.7300" phi_2="180.0" type1="HA" type2="CR" type3="NA" type4="HA"/>
+    <PeriodicDihedralTerm k_2="6.2750" phi_2="180.0" type1="CW" type2="CW" type3="NA" type4="HA"/>
+    <PeriodicDihedralTerm k_2="6.2750" phi_2="180.0" type1="HA" type2="CW" type3="NA" type4="HA"/>
+    <PeriodicDihedralTerm k_2="9.7300" phi_2="180.0" type1="CT" type2="CR" type3="NA" type4="CW"/>
+    <PeriodicDihedralTerm k_2="9.7300" phi_2="180.0" type1="CT" type2="CR" type3="NA" type4="CT"/>
+    <PeriodicDihedralTerm type1="HC" type2="CT" type3="CR" type4="NA"/>
+    <PeriodicDihedralTerm type1="CA" type2="CA" type3="CT" type4="NA"/>
+    <PeriodicDihedralTerm type1="CA" type2="CT" type3="NA" type4="CR"/>
+    <PeriodicDihedralTerm type1="CA" type2="CT" type3="NA" type4="CW"/>
+    <PeriodicDihedralTerm k_3="0.6067" phi_3="0.0" type1="F" type2="CF" type3="CT" type4="HC"/>
+    <PeriodicDihedralTerm k_3="0.9686" phi_3="0.0" type1="CT" type2="CT" type3="CF" type4="F"/>
+    <PeriodicDihedralTerm k_3="1.3828" phi_3="0.0" type1="CT" type2="CF" type3="CF" type4="F"/>
+    <PeriodicDihedralTerm k_3="0.2782" phi_3="0.0" type1="CF" type2="CT" type3="CT" type4="HC"/>
+    <PeriodicDihedralTerm k_3="0.3786" phi_3="0.0" type1="CF" type2="CF" type3="CT" type4="HC"/>
+    <PeriodicDihedralTerm k_1="7.3375" k_2="-0.4590" k_3="-1.4490" k_4="-1.0087" phi_1="0.0" phi_2="180.0" phi_3="0.0" phi_4="180.0" type1="CF" type2="CF" type3="CF" type4="CT"/>
+    <PeriodicDihedralTerm k_1="-0.2940" k_2="-0.3821" k_3="-0.1585" k_4="-0.1590" phi_1="0.0" phi_2="180.0" phi_3="0.0" phi_4="180.0" type1="CF" type2="CF" type3="CT" type4="CT"/>
+    <PeriodicDihedralTerm type1="CF" type2="CT" type3="CT" type4="NA"/>
+    <PeriodicDihedralTerm k_1="-5.2300" k_3="0.5230" phi_1="0.0" phi_3="0.0" type1="F" type2="CF" type3="CF" type4="F"/>
+    <PeriodicDihedralTerm k_1="0.6276" k_3="0.8368" phi_1="0.0" phi_3="0.0" type1="CF" type2="CF" type3="CF" type4="F"/>
+    <PeriodicDihedralTerm k_1="13.8532" k_2="1.9832" k_3="-2.9037" k_4="-4.4309" phi_1="0.0" phi_2="180.0" phi_3="0.0" phi_4="180.0" type1="CF" type2="CF" type3="CF" type4="CF"/>
+    <PeriodicDihedralTerm k_1="-2.1192" k_2="-1.4832" k_3="0.9895" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="HC" type2="CT" type3="CT" type4="NT"/>
+    <PeriodicDihedralTerm k_1="5.0041" k_2="-1.4100" k_3="1.1506" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="CT" type2="CT" type3="CT" type4="NT"/>
+    <PeriodicDihedralTerm k_1="0.8702" k_2="-0.2678" k_3="1.4540" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="CT" type2="CT" type3="NT" type4="CT"/>
+    <PeriodicDihedralTerm k_3="1.1715" phi_3="0.0" type1="CT" type2="NT" type3="CT" type4="HC"/>
+    <PeriodicDihedralTerm k_3="0.8368" phi_3="0.0" type1="HC" type2="CT" type3="NT" type4="HN"/>
+    <PeriodicDihedralTerm k_1="-0.3975" k_2="-0.8723" k_3="0.8744" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="CT" type2="CT" type3="NT" type4="HN"/>
+    <PeriodicDihedralTerm k_1="-22.0257" k_2="-2.7174" phi_1="0.0" phi_2="180.0" type1="NT" type2="CT" type3="CT" type4="OH"/>
+    <PeriodicDihedralTerm k_2="8.1642" phi_2="180.0" type1="HG" type2="NG" type3="CG" type4="NG"/>
+    <PeriodicDihedralTerm k_3="0.4635" phi_3="0.0" type1="CT" type2="PT" type3="CT" type4="HC"/>
+    <PeriodicDihedralTerm k_3="0.5665" phi_3="0.0" type1="CT" type2="CT" type3="PT" type4="CT"/>
+    <PeriodicDihedralTerm k_3="0.2325" phi_3="0.0" type1="HC" type2="CT" type3="CT" type4="PT"/>
+    <PeriodicDihedralTerm k_1="-1.6240" k_2="0.4940" k_3="-0.3575" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="CT" type2="CT" type3="CT" type4="PT"/>
+    <PeriodicDihedralTerm k_3="0.9414" phi_3="0.0" type1="HC" type2="CT" type3="OH" type4="HO"/>
+    <PeriodicDihedralTerm k_1="-0.7448" k_2="-0.3640" k_3="1.0292" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="CT" type2="CT" type3="OH" type4="HO"/>
+    <PeriodicDihedralTerm k_3="0.9790" phi_3="0.0" type1="HC" type2="CT" type3="CT" type4="OH"/>
+    <PeriodicDihedralTerm k_2="-4.9162" k_3="0.6025" phi_2="180.0" phi_3="0.0" type1="OH" type2="CT" type3="CT" type4="OH"/>
+    <PeriodicDihedralTerm k_3="0.7255" phi_3="0.0" type1="FB" type2="CF" type3="SB" type4="OB"/>
+    <PeriodicDihedralTerm k_3="0.6610" phi_3="0.0" type1="FB" type2="CF" type3="SB" type4="NB"/>
+    <PeriodicDihedralTerm k_3="-0.0075" phi_3="0.0" type1="OB" type2="SB" type3="NB" type4="SB"/>
+    <PeriodicDihedralTerm k_1="16.3865" k_2="-5.2100" k_3="-1.5975" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="CF" type2="SB" type3="NB" type4="SB"/>
+    <PeriodicDihedralTerm k_1="-5.2300" k_3="0.5230" phi_1="0.0" phi_3="0.0" type1="F" type2="CF" type3="CF" type4="FB"/>
+    <PeriodicDihedralTerm k_3="0.7265" phi_3="0.0" type1="FB" type2="CF" type3="CF" type4="SB"/>
+    <PeriodicDihedralTerm k_3="0.7265" phi_3="0.0" type1="F" type2="CF" type3="CF" type4="SB"/>
+    <PeriodicDihedralTerm k_3="-0.3700" phi_3="0.0" type1="CF" type2="CF" type3="SB" type4="OB"/>
+    <PeriodicDihedralTerm k_1="-1.5470" phi_1="0.0" type1="CF" type2="CF" type3="SB" type4="NB"/>
+    <PeriodicDihedralTerm k_1="25.0450" k_3="-2.3130" k_4="-2.0040" phi_1="0.0" phi_3="0.0" phi_4="180.0" type1="CF" type2="CF" type3="CF" type4="SB"/>
+    <PeriodicDihedralTerm k_1="5.7225" k_2="-7.5930" k_3="-1.6060" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="FB" type2="SB" type3="NB" type4="SB"/>
+    <PeriodicDihedralTerm type1="HC" type2="CT" type3="CO" type4="O2"/>
+    <PeriodicDihedralTerm type1="F" type2="CF" type3="CO" type4="O2"/>
+    <PeriodicDihedralTerm k_3="1.2408" phi_3="0.0" type1="CT" type2="OC" type3="SO" type4="OS"/>
+    <PeriodicDihedralTerm k_3="0.8429" phi_3="0.0" type1="HC" type2="CT" type3="OC" type4="SO"/>
+    <PeriodicDihedralTerm k_1="-3.0071" k_2="-1.5567" k_3="0.7470" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="CT" type2="CT" type3="OC" type4="SO"/>
+    <PeriodicDihedralTerm k_3="1.0349" phi_3="0.0" type1="HC" type2="CT" type3="CT" type4="OC"/>
+    <PeriodicDihedralTerm k_1="2.1947" k_2="-0.9136" k_3="1.4852" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="CT" type2="CT" type3="CT" type4="OC"/>
+    <PeriodicDihedralTerm k_3="0.8125" phi_3="0.0" type1="HC" type2="CT" type3="SO" type4="OS"/>
+    <PeriodicDihedralTerm k_3="0.6969" phi_3="0.0" type1="CT" type2="CT" type3="SO" type4="OS"/>
+    <PeriodicDihedralTerm k_3="0.6898" phi_3="0.0" type1="HC" type2="CT" type3="CT" type4="SO"/>
+    <PeriodicDihedralTerm k_1="-8.0500" k_2="-1.0023" k_3="0.3837" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="CT" type2="CT" type3="CT" type4="SO"/>
+    <PeriodicDihedralTerm type1="CZ" type2="N3" type3="CZ" type4="NZ"/>
+    <PeriodicDihedralTerm type1="CN" type2="C3A" type3="CN" type4="NC"/>
+    <PeriodicDihedralTerm type1="CA" type2="CA" type3="SO" type4="OS"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="CA" type2="CA" type3="CA" type4="SO"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="HA" type2="CA" type3="CA" type4="SO"/>
+    <PeriodicDihedralTerm type1="CA" type2="CA" type3="CT" type4="HC"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C02D" type2="C01D" type3="C0AD" type4="C09D"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C03D" type2="C02D" type3="C01D" type4="C0AD"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C09D" type2="C0AD" type3="C01D" type4="O00D"/>
+    <PeriodicDihedralTerm k_2="14.6440" phi_2="180.0" type1="C03D" type2="C08D" type3="C09D" type4="C0AD"/>
+    <PeriodicDihedralTerm k_2="14.6440" phi_2="180.0" type1="C0AD" type2="C09D" type3="C08D" type4="N06D"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C02D" type2="C03D" type3="C08D" type4="C09D"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C04D" type2="C03D" type3="C08D" type4="C09D"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C05D" type2="N06D" type3="C08D" type4="C09D"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="C09D" type2="C08D" type3="N06D" type4="H07D"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C01D" type2="C0AD" type3="C09D" type4="C08D"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C01D" type2="C02D" type3="C03D" type4="C08D"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C05D" type2="C04D" type3="C03D" type4="C08D"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="C04D" type2="C05D" type3="N06D" type4="C08D"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C03D" type2="C02D" type3="C01D" type4="O00D"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C01D" type2="C02D" type3="C03D" type4="C04D"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C02D" type2="C03D" type3="C04D" type4="C05D"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C03D" type2="C08D" type3="N06D" type4="C05D"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="C03D" type2="C08D" type3="N06D" type4="H07D"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="C04D" type2="C05D" type3="N06D" type4="H07D"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C01D" type2="C0AD" type3="C09D" type4="H0GD"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0AD" type2="C01D" type3="C02D" type4="H0DD"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0GD" type2="C09D" type3="C0AD" type4="O0BD"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0DD" type2="C02D" type3="C01D" type4="O00D"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C03D" type2="C08D" type3="C09D" type4="H0GD"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0GD" type2="C09D" type3="C08D" type4="N06D"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C08D" type2="C03D" type3="C02D" type4="H0DD"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C04D" type2="C03D" type3="C02D" type4="H0DD"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C02D" type2="C03D" type3="C04D" type4="H0ED"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C08D" type2="C03D" type3="C04D" type4="H0ED"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0ED" type2="C04D" type3="C05D" type4="N06D"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C03D" type2="C04D" type3="C05D" type4="H0FD"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0ED" type2="C04D" type3="C05D" type4="H0FD"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="C08D" type2="N06D" type3="C05D" type4="H0FD"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="H07D" type2="N06D" type3="C05D" type4="H0FD"/>
+    <PeriodicDihedralTerm k_2="3.5185" phi_2="180.0" type1="C09D" type2="C0AD" type3="O0BD" type4="H0HD"/>
+    <PeriodicDihedralTerm k_2="3.5185" phi_2="180.0" type1="C0AD" type2="C01D" type3="O00D" type4="H0CD"/>
+    <PeriodicDihedralTerm k_2="3.5185" phi_2="180.0" type1="C01D" type2="C0AD" type3="O0BD" type4="H0HD"/>
+    <PeriodicDihedralTerm k_2="3.5185" phi_2="180.0" type1="C02D" type2="C01D" type3="O00D" type4="H0CD"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C02D" type2="C03D" type3="C08D" type4="N06D"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C04D" type2="C03D" type3="C08D" type4="N06D"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C03D" type2="C04D" type3="C05D" type4="N06D"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C02D" type2="C01D" type3="C0AD" type4="O0BD"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C08D" type2="C09D" type3="C0AD" type4="O0BD"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="O00D" type2="C01D" type3="C0AD" type4="O0BD"/>
+    <PeriodicDihedralTerm k_1="2.0920" phi_1="0.0" type1="C03I" type2="C02I" type3="C01I" type4="C0AI"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C03I" type2="C08I" type3="C09I" type4="C0AI"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0AI" type2="C09I" type3="C08I" type4="N06I"/>
+    <PeriodicDihedralTerm k_1="2.0920" phi_1="0.0" type1="C01I" type2="C0AI" type3="C09I" type4="C08I"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C01I" type2="C02I" type3="C03I" type4="C08I"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C05I" type2="C04I" type3="C03I" type4="C08I"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="C04I" type2="C05I" type3="N06I" type4="C08I"/>
+    <PeriodicDihedralTerm k_1="0.7320" k_2="3.1380" phi_1="0.0" phi_2="180.0" type1="C02I" type2="C01I" type3="C0AI" type4="C09I"/>
+    <PeriodicDihedralTerm k_2="1.0460" phi_2="180.0" type1="C09I" type2="C0AI" type3="C01I" type4="O00I"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C02I" type2="C03I" type3="C08I" type4="C09I"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C04I" type2="C03I" type3="C08I" type4="C09I"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C05I" type2="N06I" type3="C08I" type4="C09I"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="C09I" type2="C08I" type3="N06I" type4="H07I"/>
+    <PeriodicDihedralTerm k_1="2.6150" k_2="12.5520" phi_1="0.0" phi_2="180.0" type1="C03I" type2="C02I" type3="C01I" type4="O00I"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C01I" type2="C02I" type3="C03I" type4="C04I"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C02I" type2="C03I" type3="C04I" type4="C05I"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C03I" type2="C08I" type3="N06I" type4="C05I"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="C03I" type2="C08I" type3="N06I" type4="H07I"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="C04I" type2="C05I" type3="N06I" type4="H07I"/>
+    <PeriodicDihedralTerm type1="C01I" type2="C0AI" type3="C09I" type4="H0FI"/>
+    <PeriodicDihedralTerm type1="C0AI" type2="C01I" type3="C02I" type4="H0CI"/>
+    <PeriodicDihedralTerm type1="H0FI" type2="C09I" type3="C0AI" type4="O0BI"/>
+    <PeriodicDihedralTerm type1="H0CI" type2="C02I" type3="C01I" type4="O00I"/>
+    <PeriodicDihedralTerm k_1="1.1675" k_3="1.5565" phi_1="0.0" phi_3="0.0" type1="C03I" type2="C08I" type3="C09I" type4="H0FI"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0FI" type2="C09I" type3="C08I" type4="N06I"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C08I" type2="C03I" type3="C02I" type4="H0CI"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C04I" type2="C03I" type3="C02I" type4="H0CI"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C08I" type2="C03I" type3="C04I" type4="H0DI"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C02I" type2="C03I" type3="C04I" type4="H0DI"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0DI" type2="C04I" type3="C05I" type4="N06I"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C03I" type2="C04I" type3="C05I" type4="H0EI"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0DI" type2="C04I" type3="C05I" type4="H0EI"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="C08I" type2="N06I" type3="C05I" type4="H0EI"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="H07I" type2="N06I" type3="C05I" type4="H0EI"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C02I" type2="C03I" type3="C08I" type4="N06I"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C04I" type2="C03I" type3="C08I" type4="N06I"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C03I" type2="C04I" type3="C05I" type4="N06I"/>
+    <PeriodicDihedralTerm k_2="1.0460" phi_2="180.0" type1="C02I" type2="C01I" type3="C0AI" type4="O0BI"/>
+    <PeriodicDihedralTerm k_1="1.6735" k_2="6.6945" phi_1="0.0" phi_2="180.0" type1="O00I" type2="C01I" type3="C0AI" type4="O0BI"/>
+    <PeriodicDihedralTerm k_1="2.6150" k_2="12.5520" phi_1="0.0" phi_2="180.0" type1="C08I" type2="C09I" type3="C0AI" type4="O0BI"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0EP" type2="C0FP" type3="C0GP" type4="C0SP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0CP" type2="C0SP" type3="C0GP" type4="C0FP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0BP" type2="C0EP" type3="C0FP" type4="C0GP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0SP" type2="C0GP" type3="C0FP" type4="O0JP"/>
+    <PeriodicDihedralTerm k_2="14.6440" phi_2="180.0" type1="C0BP" type2="C0CP" type3="C0SP" type4="C0GP"/>
+    <PeriodicDihedralTerm k_2="14.6440" phi_2="180.0" type1="C0GP" type2="C0SP" type3="C0CP" type4="N0DP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0CP" type2="C0BP" type3="C0EP" type4="C0FP"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C0AP" type2="C0BP" type3="C0EP" type4="C0FP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0EP" type2="C0BP" type3="C0CP" type4="C0SP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0AP" type2="C0BP" type3="C0CP" type4="C0SP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C09P" type2="N0DP" type3="C0CP" type4="C0SP"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="C0SP" type2="C0CP" type3="N0DP" type4="H0NP"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C0EP" type2="C0BP" type3="C0CP" type4="N0DP"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C09P" type2="C0AP" type3="C0BP" type4="C0EP"/>
+    <PeriodicDihedralTerm k_1="2.0920" phi_1="0.0" type1="C00P" type2="C01P" type3="C05P" type4="C04P"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C00P" type2="C02P" type3="C03P" type4="C04P"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C09P" type2="C0AP" type3="C0BP" type4="C0CP"/>
+    <PeriodicDihedralTerm type1="C0AP" type2="C09P" type3="N0DP" type4="C0CP"/>
+    <PeriodicDihedralTerm type1="C07P" type2="C09P" type3="N0DP" type4="C0CP"/>
+    <PeriodicDihedralTerm k_1="0.7320" k_2="3.1380" phi_1="0.0" phi_2="180.0" type1="C02P" type2="C00P" type3="C01P" type4="C05P"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C02P" type2="C03P" type3="C04P" type4="C05P"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C01P" type2="C05P" type3="C04P" type4="C03P"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C09P" type2="N0DP" type3="C0CP" type4="C0BP"/>
+    <PeriodicDihedralTerm k_1="2.0920" phi_1="0.0" type1="C01P" type2="C00P" type3="C02P" type4="C03P"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C05P" type2="C04P" type3="C03P" type4="C06P"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C00P" type2="C02P" type3="C03P" type4="C06P"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C04P" type2="C03P" type3="C06P" type4="C07P"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C02P" type2="C03P" type3="C06P" type4="C07P"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C07P" type2="C09P" type3="C0AP" type4="C0BP"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C03P" type2="C06P" type3="C07P" type4="C09P"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C06P" type2="C07P" type3="C09P" type4="C0AP"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C0AP" type2="C09P" type3="C07P" type4="N08P"/>
+    <PeriodicDihedralTerm type1="C04P" type2="N08P" type3="C07P" type4="C09P"/>
+    <PeriodicDihedralTerm type1="C04P" type2="N08P" type3="C07P" type4="C06P"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C05P" type2="C04P" type3="N08P" type4="C07P"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C03P" type2="C04P" type3="N08P" type4="C07P"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="C05P" type2="C04P" type3="N08P" type4="H0WP"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="C0BP" type2="C0CP" type3="N0DP" type4="H0NP"/>
+    <PeriodicDihedralTerm k_2="10.4600" phi_2="180.0" type1="C03P" type2="C04P" type3="N08P" type4="H0WP"/>
+    <PeriodicDihedralTerm k_2="10.2510" phi_2="180.0" type1="C07P" type2="C09P" type3="N0DP" type4="H0NP"/>
+    <PeriodicDihedralTerm k_2="10.2510" phi_2="180.0" type1="C09P" type2="C07P" type3="N08P" type4="H0WP"/>
+    <PeriodicDihedralTerm k_2="10.2510" phi_2="180.0" type1="C06P" type2="C07P" type3="N08P" type4="H0WP"/>
+    <PeriodicDihedralTerm k_2="10.2510" phi_2="180.0" type1="C0AP" type2="C09P" type3="N0DP" type4="H0NP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0GP" type2="C0FP" type3="C0EP" type4="H0VP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0FP" type2="C0GP" type3="C0SP" type4="H0UP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0VP" type2="C0EP" type3="C0FP" type4="O0JP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0UP" type2="C0SP" type3="C0GP" type4="O0MP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0BP" type2="C0CP" type3="C0SP" type4="H0UP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0UP" type2="C0SP" type3="C0CP" type4="N0DP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0CP" type2="C0BP" type3="C0EP" type4="H0VP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0AP" type2="C0BP" type3="C0EP" type4="H0VP"/>
+    <PeriodicDihedralTerm type1="C00P" type2="C01P" type3="C05P" type4="H0QP"/>
+    <PeriodicDihedralTerm type1="C01P" type2="C00P" type3="C02P" type4="H0OP"/>
+    <PeriodicDihedralTerm type1="H0OP" type2="C02P" type3="C00P" type4="O0HP"/>
+    <PeriodicDihedralTerm type1="H0QP" type2="C05P" type3="C01P" type4="O0IP"/>
+    <PeriodicDihedralTerm k_1="1.1675" k_3="1.5565" phi_1="0.0" phi_3="0.0" type1="C03P" type2="C04P" type3="C05P" type4="H0QP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0QP" type2="C05P" type3="C04P" type4="N08P"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C04P" type2="C03P" type3="C02P" type4="H0OP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C06P" type2="C03P" type3="C02P" type4="H0OP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0EP" type2="C0BP" type3="C0AP" type4="H0RP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C04P" type2="C03P" type3="C06P" type4="H0PP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0CP" type2="C0BP" type3="C0AP" type4="H0RP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C02P" type2="C03P" type3="C06P" type4="H0PP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C07P" type2="C09P" type3="C0AP" type4="H0RP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C09P" type2="C07P" type3="C06P" type4="H0PP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0PP" type2="C06P" type3="C07P" type4="N08P"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0RP" type2="C0AP" type3="C09P" type4="N0DP"/>
+    <PeriodicDihedralTerm k_2="3.5185" phi_2="180.0" type1="C0GP" type2="C0FP" type3="O0JP" type4="H0KP"/>
+    <PeriodicDihedralTerm k_2="3.5185" phi_2="180.0" type1="C0EP" type2="C0FP" type3="O0JP" type4="H0KP"/>
+    <PeriodicDihedralTerm k_2="3.5185" phi_2="180.0" type1="C0SP" type2="C0GP" type3="O0MP" type4="H0TP"/>
+    <PeriodicDihedralTerm k_2="3.5185" phi_2="180.0" type1="C0FP" type2="C0GP" type3="O0MP" type4="H0TP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C01P" type2="C05P" type3="C04P" type4="N08P"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C02P" type2="C03P" type3="C04P" type4="N08P"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C0AP" type2="C0BP" type3="C0CP" type4="N0DP"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C06P" type2="C03P" type3="C04P" type4="N08P"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C03P" type2="C06P" type3="C07P" type4="N08P"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C0BP" type2="C0AP" type3="C09P" type4="N0DP"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="C06P" type2="C07P" type3="C09P" type4="N0DP"/>
+    <PeriodicDihedralTerm k_2="4.5395" phi_2="180.0" type1="N08P" type2="C07P" type3="C09P" type4="N0DP"/>
+    <PeriodicDihedralTerm k_2="1.0460" phi_2="180.0" type1="C02P" type2="C00P" type3="C01P" type4="O0IP"/>
+    <PeriodicDihedralTerm k_2="1.0460" phi_2="180.0" type1="C05P" type2="C01P" type3="C00P" type4="O0HP"/>
+    <PeriodicDihedralTerm k_1="1.6735" k_2="6.6945" phi_1="0.0" phi_2="180.0" type1="O0HP" type2="C00P" type3="C01P" type4="O0IP"/>
+    <PeriodicDihedralTerm k_1="2.6150" k_2="12.5520" phi_1="0.0" phi_2="180.0" type1="C04P" type2="C05P" type3="C01P" type4="O0IP"/>
+    <PeriodicDihedralTerm k_1="2.6150" k_2="12.5520" phi_1="0.0" phi_2="180.0" type1="C03P" type2="C02P" type3="C00P" type4="O0HP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0EP" type2="C0FP" type3="C0GP" type4="O0MP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0CP" type2="C0SP" type3="C0GP" type4="O0MP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0BP" type2="C0EP" type3="C0FP" type4="O0JP"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="O0JP" type2="C0FP" type3="C0GP" type4="O0MP"/>
+    <PeriodicDihedralTerm k_1="1.2040" k_2="8.4830" k_3="3.5900" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0NM" type2="C0QM" type3="C0TM" type4="C0VM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C0VM" type2="C0TM" type3="C0QM" type4="H0SM"/>
+    <PeriodicDihedralTerm k_1="2.0920" phi_1="0.0" type1="C04M" type2="C02M" type3="C03M" type4="C06M"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C06M" type2="C03M" type3="C02M" type4="O01M"/>
+    <PeriodicDihedralTerm k_1="1.2040" k_2="8.4830" k_3="3.5900" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0KM" type2="C0PM" type3="C0NM" type4="C0QM"/>
+    <PeriodicDihedralTerm k_1="1.2040" k_2="8.4830" k_3="3.5900" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C04M" type2="C08M" type3="C0AM" type4="C06M"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0HM" type2="N0JM" type3="C0NM" type4="C0QM"/>
+    <PeriodicDihedralTerm k_1="1.5105" k_2="0.8725" k_3="1.7490" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0QM" type2="C0NM" type3="N0JM" type4="H0MM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C0NM" type2="C0PM" type3="C0RM" type4="C0VM"/>
+    <PeriodicDihedralTerm k_1="1.2040" k_2="8.4830" k_3="3.5900" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0KM" type2="C0PM" type3="C0RM" type4="C0VM"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0PM" type2="C0NM" type3="C0QM" type4="C0TM"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0TM" type2="C0QM" type3="C0NM" type4="N0JM"/>
+    <PeriodicDihedralTerm k_1="3.1985" k_2="0.8475" k_3="3.7825" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0PM" type2="C0RM" type3="C0VM" type4="C0TM"/>
+    <PeriodicDihedralTerm k_2="3.5185" phi_2="180.0" type1="C03M" type2="C02M" type3="O01M" type4="H00M"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C03M" type2="C06M" type3="C0AM" type4="C08M"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0HM" type2="N0JM" type3="C0NM" type4="C0PM"/>
+    <PeriodicDihedralTerm k_1="1.5105" k_2="0.8725" k_3="1.7490" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0PM" type2="C0NM" type3="N0JM" type4="H0MM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C03M" type2="C02M" type3="C04M" type4="C08M"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C08M" type2="C04M" type3="C02M" type4="O01M"/>
+    <PeriodicDihedralTerm k_1="3.1985" k_2="0.8475" k_3="3.7825" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0EM" type2="C0HM" type3="C0KM" type4="C0PM"/>
+    <PeriodicDihedralTerm k_1="1.1675" k_3="1.5565" phi_1="0.0" phi_3="0.0" type1="C0PM" type2="C0KM" type3="C0HM" type4="H0IM"/>
+    <PeriodicDihedralTerm k_1="3.1985" k_2="0.8475" k_3="3.7825" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0PM" type2="C0KM" type3="C0HM" type4="N0JM"/>
+    <PeriodicDihedralTerm k_1="1.1675" k_3="1.5565" phi_1="0.0" phi_3="0.0" type1="C02M" type2="C03M" type3="C06M" type4="C0AM"/>
+    <PeriodicDihedralTerm k_1="2.6150" k_2="12.5520" phi_1="0.0" phi_2="180.0" type1="C0AM" type2="C06M" type3="C03M" type4="O05M"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C02M" type2="C04M" type3="C08M" type4="C0AM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C0HM" type2="C0KM" type3="C0PM" type4="C0NM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C0AM" type2="C08M" type3="C04M" type4="H07M"/>
+    <PeriodicDihedralTerm k_1="1.7460" k_2="0.2680" k_3="2.9080" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0KM" type2="C0HM" type3="N0JM" type4="C0NM"/>
+    <PeriodicDihedralTerm k_1="1.7460" k_2="0.2680" k_3="2.9080" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0EM" type2="C0HM" type3="N0JM" type4="C0NM"/>
+    <PeriodicDihedralTerm k_1="1.7575" k_3="2.3430" phi_1="0.0" phi_3="0.0" type1="C0NM" type2="N0JM" type3="C0HM" type4="H0IM"/>
+    <PeriodicDihedralTerm k_1="1.2040" k_2="8.4830" k_3="3.5900" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0QM" type2="C0TM" type3="C0VM" type4="C0RM"/>
+    <PeriodicDihedralTerm k_1="1.2040" k_2="8.4830" k_3="3.5900" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0QM" type2="C0NM" type3="C0PM" type4="C0RM"/>
+    <PeriodicDihedralTerm k_1="1.2040" k_2="8.4830" k_3="3.5900" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C06M" type2="C0AM" type3="C08M" type4="C0BM"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0KM" type2="C0PM" type3="C0NM" type4="N0JM"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0RM" type2="C0PM" type3="C0NM" type4="N0JM"/>
+    <PeriodicDihedralTerm k_1="1.2040" k_2="8.4830" k_3="3.5900" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C02M" type2="C04M" type3="C08M" type4="C0BM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C0HM" type2="C0KM" type3="C0PM" type4="C0RM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C0RM" type2="C0PM" type3="C0KM" type4="H0OM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C0BM" type2="C08M" type3="C04M" type4="H07M"/>
+    <PeriodicDihedralTerm k_2="3.5185" phi_2="180.0" type1="C04M" type2="C02M" type3="O01M" type4="H00M"/>
+    <PeriodicDihedralTerm k_1="0.7320" k_2="0.4185" k_3="0.8370" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0BM" type2="C0EM" type3="C0HM" type4="C0KM"/>
+    <PeriodicDihedralTerm k_1="1.1485" k_3="1.5315" phi_1="0.0" phi_3="0.0" type1="C0KM" type2="C0HM" type3="C0EM" type4="H0GM"/>
+    <PeriodicDihedralTerm k_1="0.7760" k_2="1.4100" k_3="2.3010" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0KM" type2="C0HM" type3="C0EM" type4="N0CM"/>
+    <PeriodicDihedralTerm k_1="1.7460" k_2="0.2680" k_3="2.9080" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0AM" type2="N0CM" type3="C0EM" type4="C0BM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C0AM" type2="C08M" type3="C0BM" type4="C0EM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C04M" type2="C08M" type3="C0BM" type4="C0EM"/>
+    <PeriodicDihedralTerm k_1="3.1985" k_2="0.8475" k_3="3.7825" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C08M" type2="C0BM" type3="C0EM" type4="C0HM"/>
+    <PeriodicDihedralTerm k_2="16.7360" phi_2="180.0" type1="C0HM" type2="C0EM" type3="C0BM" type4="H0DM"/>
+    <PeriodicDihedralTerm k_1="1.7460" k_2="0.2680" k_3="2.9080" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0AM" type2="N0CM" type3="C0EM" type4="C0HM"/>
+    <PeriodicDihedralTerm k_1="1.5105" k_2="0.8725" k_3="1.7490" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0HM" type2="C0EM" type3="N0CM" type4="H0FM"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C06M" type2="C0AM" type3="N0CM" type4="C0EM"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C08M" type2="C0AM" type3="N0CM" type4="C0EM"/>
+    <PeriodicDihedralTerm k_1="1.5105" k_2="0.8725" k_3="1.7490" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C06M" type2="C0AM" type3="N0CM" type4="H0FM"/>
+    <PeriodicDihedralTerm k_1="1.5105" k_2="0.8725" k_3="1.7490" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C08M" type2="C0AM" type3="N0CM" type4="H0FM"/>
+    <PeriodicDihedralTerm k_1="1.5105" k_2="0.8725" k_3="1.7490" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0BM" type2="C0EM" type3="N0CM" type4="H0FM"/>
+    <PeriodicDihedralTerm k_1="1.5105" k_2="0.8725" k_3="1.7490" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0KM" type2="C0HM" type3="N0JM" type4="H0MM"/>
+    <PeriodicDihedralTerm k_1="1.5105" k_2="0.8725" k_3="1.7490" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0EM" type2="C0HM" type3="N0JM" type4="H0MM"/>
+    <PeriodicDihedralTerm k_1="1.2550" k_3="1.6735" phi_1="0.0" phi_3="0.0" type1="H0IM" type2="C0HM" type3="N0JM" type4="H0MM"/>
+    <PeriodicDihedralTerm k_1="1.1675" k_3="1.5565" phi_1="0.0" phi_3="0.0" type1="C02M" type2="C03M" type3="C06M" type4="H09M"/>
+    <PeriodicDihedralTerm type1="H09M" type2="C06M" type3="C03M" type4="O05M"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C0PM" type2="C0NM" type3="C0QM" type4="H0SM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C08M" type2="C0AM" type3="C06M" type4="H09M"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0SM" type2="C0QM" type3="C0NM" type4="N0JM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C0TM" type2="C0VM" type3="C0RM" type4="H0UM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C0NM" type2="C0PM" type3="C0RM" type4="H0UM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C0AM" type2="C08M" type3="C0BM" type4="H0DM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C0NM" type2="C0PM" type3="C0KM" type4="H0OM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C0KM" type2="C0PM" type3="C0RM" type4="H0UM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C04M" type2="C08M" type3="C0BM" type4="H0DM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="C03M" type2="C02M" type3="C04M" type4="H07M"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="H07M" type2="C04M" type3="C02M" type4="O01M"/>
+    <PeriodicDihedralTerm k_2="16.7360" phi_2="180.0" type1="C0EM" type2="C0HM" type3="C0KM" type4="H0OM"/>
+    <PeriodicDihedralTerm k_1="0.9980" k_3="1.3305" phi_1="0.0" phi_3="0.0" type1="H0IM" type2="C0HM" type3="C0KM" type4="H0OM"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0DM" type2="C0BM" type3="C0EM" type4="N0CM"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H0OM" type2="C0KM" type3="C0HM" type4="N0JM"/>
+    <PeriodicDihedralTerm k_1="1.1675" k_3="1.5565" phi_1="0.0" phi_3="0.0" type1="C08M" type2="C0BM" type3="C0EM" type4="H0GM"/>
+    <PeriodicDihedralTerm k_1="0.9980" k_3="1.3305" phi_1="0.0" phi_3="0.0" type1="H0DM" type2="C0BM" type3="C0EM" type4="H0GM"/>
+    <PeriodicDihedralTerm k_1="1.1485" k_3="1.5315" phi_1="0.0" phi_3="0.0" type1="C0BM" type2="C0EM" type3="C0HM" type4="H0IM"/>
+    <PeriodicDihedralTerm k_1="0.9415" k_3="1.2550" phi_1="0.0" phi_3="0.0" type1="H0GM" type2="C0EM" type3="C0HM" type4="H0IM"/>
+    <PeriodicDihedralTerm k_1="2.5440" k_2="1.4830" k_3="1.9790" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="H0IM" type2="C0HM" type3="C0EM" type4="N0CM"/>
+    <PeriodicDihedralTerm k_1="1.7575" k_3="2.3430" phi_1="0.0" phi_3="0.0" type1="C0AM" type2="N0CM" type3="C0EM" type4="H0GM"/>
+    <PeriodicDihedralTerm k_1="1.2550" k_3="1.6735" phi_1="0.0" phi_3="0.0" type1="H0FM" type2="N0CM" type3="C0EM" type4="H0GM"/>
+    <PeriodicDihedralTerm k_1="3.1380" k_2="11.5060" phi_1="0.0" phi_2="180.0" type1="C0TM" type2="C0VM" type3="O0XM" type4="H0YM"/>
+    <PeriodicDihedralTerm k_2="3.5185" phi_2="180.0" type1="C0RM" type2="C0VM" type3="O0XM" type4="H0YM"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C03M" type2="C06M" type3="C0AM" type4="N0CM"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="H09M" type2="C06M" type3="C0AM" type4="N0CM"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C0BM" type2="C08M" type3="C0AM" type4="N0CM"/>
+    <PeriodicDihedralTerm k_2="15.1670" phi_2="180.0" type1="C04M" type2="C08M" type3="C0AM" type4="N0CM"/>
+    <PeriodicDihedralTerm k_1="3.1985" k_2="0.8475" k_3="3.7825" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C08M" type2="C0BM" type3="C0EM" type4="N0CM"/>
+    <PeriodicDihedralTerm k_1="0.7760" k_2="1.4100" k_3="2.3010" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="C0BM" type2="C0EM" type3="C0HM" type4="N0JM"/>
+    <PeriodicDihedralTerm k_1="2.5440" k_2="1.4830" k_3="1.9790" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="H0GM" type2="C0EM" type3="C0HM" type4="N0JM"/>
+    <PeriodicDihedralTerm k_1="10.6955" k_2="2.0250" k_3="1.1295" phi_1="0.0" phi_2="180.0" phi_3="0.0" type1="N0CM" type2="C0EM" type3="C0HM" type4="N0JM"/>
+    <PeriodicDihedralTerm k_1="2.6150" k_2="12.5520" phi_1="0.0" phi_2="180.0" type1="C0NM" type2="C0QM" type3="C0TM" type4="O0WM"/>
+    <PeriodicDihedralTerm k_1="2.6150" k_2="12.5520" phi_1="0.0" phi_2="180.0" type1="C0RM" type2="C0VM" type3="C0TM" type4="O0WM"/>
+    <PeriodicDihedralTerm type1="H0SM" type2="C0QM" type3="C0TM" type4="O0WM"/>
+    <PeriodicDihedralTerm k_1="2.6150" k_2="12.5520" phi_1="0.0" phi_2="180.0" type1="C04M" type2="C02M" type3="C03M" type4="O05M"/>
+    <PeriodicDihedralTerm type1="O01M" type2="C02M" type3="C03M" type4="O05M"/>
+    <PeriodicDihedralTerm k_1="3.3470" k_2="6.2760" phi_1="0.0" phi_2="180.0" type1="C0QM" type2="C0TM" type3="C0VM" type4="O0XM"/>
+    <PeriodicDihedralTerm type1="O0WM" type2="C0TM" type3="C0VM" type4="O0XM"/>
+    <PeriodicDihedralTerm k_1="0.5230" phi_1="0.0" type1="C0PM" type2="C0RM" type3="C0VM" type4="O0XM"/>
+    <PeriodicDihedralTerm k_2="29.2880" phi_2="180.0" type1="H0UM" type2="C0RM" type3="C0VM" type4="O0XM"/>
+  </DihedralTerms>
+  <ImproperTerms>
+    <OplsImproperTerm k="4.6024" type1="CA" type2="CA" type3="CA" type4="HA"/>
+    <OplsImproperTerm k="4.6024" type1="CA" type2="CA" type3="CA" type4="CA"/>
+    <OplsImproperTerm k="4.6024" type1="CA" type2="CA" type3="CA" type4="CT"/>
+    <OplsImproperTerm k="4.6024" type1="NA" type2="CA" type3="CA" type4="CT"/>
+    <OplsImproperTerm k="4.6024" type1="CA" type2="CA" type3="HA" type4="NA"/>
+    <OplsImproperTerm k="4.184" type1="NA" type2="CR" type3="CT" type4="CW"/>
+    <OplsImproperTerm k="4.184" type1="NA" type2="CR" type3="CW" type4="HA"/>
+    <OplsImproperTerm k="4.6024" type1="CR" type2="HA" type3="NA" type4="NA"/>
+    <OplsImproperTerm k="4.6024" type1="CR" type2="CT" type3="NA" type4="NA"/>
+    <OplsImproperTerm k="4.6024" type1="CW" type2="CW" type3="HA" type4="NA"/>
+    <OplsImproperTerm k="4.6024" type1="C3A" type2="CN" type3="CN" type4="CN"/>
+    <OplsImproperTerm k="43.932" type1="CO" type2="CT" type3="O2" type4="O2"/>
+    <OplsImproperTerm k="4.184" type1="CG" type2="NG" type3="NG" type4="NG"/>
+    <OplsImproperTerm k="4.6024" type1="NG" type2="CG" type3="HG" type4="HG"/>
+    <OplsImproperTerm k="4.6024" type1="CA" type2="CA" type3="CA" type4="SO"/>
+    <OplsImproperTerm k="5.23" type1="C01D" type2="C02D" type3="C0AD" type4="O00D"/>
+    <OplsImproperTerm k="5.23" type1="C08D" type2="C03D" type3="C09D" type4="N06D"/>
+    <OplsImproperTerm k="5.23" type1="C03D" type2="C02D" type3="C04D" type4="C08D"/>
+    <OplsImproperTerm k="5.23" type1="C02D" type2="C01D" type3="C03D" type4="H0DD"/>
+    <OplsImproperTerm k="5.23" type1="C09D" type2="C08D" type3="C0AD" type4="H0GD"/>
+    <OplsImproperTerm k="5.23" type1="C04D" type2="C03D" type3="C05D" type4="H0ED"/>
+    <OplsImproperTerm k="5.23" type1="C05D" type2="C04D" type3="H0FD" type4="N06D"/>
+    <OplsImproperTerm k="5.23" type1="C0AD" type2="C01D" type3="C09D" type4="O0BD"/>
+    <OplsImproperTerm k="0.0" type1="N06D" type2="C05D" type3="C08D" type4="H07D"/>
+    <OplsImproperTerm k="21.966" type1="C01I" type2="C02I" type3="C0AI" type4="O00I"/>
+    <OplsImproperTerm k="5.23" type1="C03I" type2="C02I" type3="C04I" type4="C08I"/>
+    <OplsImproperTerm k="5.23" type1="C08I" type2="C03I" type3="C09I" type4="N06I"/>
+    <OplsImproperTerm k="5.23" type1="C02I" type2="C01I" type3="C03I" type4="H0CI"/>
+    <OplsImproperTerm k="5.23" type1="C09I" type2="C08I" type3="C0AI" type4="H0FI"/>
+    <OplsImproperTerm k="5.23" type1="C04I" type2="C03I" type3="C05I" type4="H0DI"/>
+    <OplsImproperTerm k="5.23" type1="C05I" type2="C04I" type3="H0EI" type4="N06I"/>
+    <OplsImproperTerm k="21.966" type1="C0AI" type2="C01I" type3="C09I" type4="O0BI"/>
+    <OplsImproperTerm k="0.0" type1="N06I" type2="C05I" type3="C08I" type4="H07I"/>
+    <OplsImproperTerm k="5.23" type1="C0GP" type2="C0FP" type3="C0SP" type4="O0MP"/>
+    <OplsImproperTerm k="5.23" type1="C0CP" type2="C0BP" type3="C0SP" type4="N0DP"/>
+    <OplsImproperTerm k="5.23" type1="C0BP" type2="C0AP" type3="C0CP" type4="C0EP"/>
+    <OplsImproperTerm k="5.23" type1="C03P" type2="C02P" type3="C04P" type4="C06P"/>
+    <OplsImproperTerm k="5.23" type1="C07P" type2="C06P" type3="C09P" type4="N08P"/>
+    <OplsImproperTerm k="5.23" type1="N08P" type2="C04P" type3="C07P" type4="H0WP"/>
+    <OplsImproperTerm k="5.23" type1="N0DP" type2="C09P" type3="C0CP" type4="H0NP"/>
+    <OplsImproperTerm k="5.23" type1="C0SP" type2="C0CP" type3="C0GP" type4="H0UP"/>
+    <OplsImproperTerm k="5.23" type1="C0EP" type2="C0BP" type3="C0FP" type4="H0VP"/>
+    <OplsImproperTerm k="5.23" type1="C05P" type2="C01P" type3="C04P" type4="H0QP"/>
+    <OplsImproperTerm k="5.23" type1="C02P" type2="C00P" type3="C03P" type4="H0OP"/>
+    <OplsImproperTerm k="5.23" type1="C0AP" type2="C09P" type3="C0BP" type4="H0RP"/>
+    <OplsImproperTerm k="5.23" type1="C06P" type2="C03P" type3="C07P" type4="H0PP"/>
+    <OplsImproperTerm k="5.23" type1="C04P" type2="C03P" type3="C05P" type4="N08P"/>
+    <OplsImproperTerm k="5.23" type1="C09P" type2="C07P" type3="C0AP" type4="N0DP"/>
+    <OplsImproperTerm k="21.966" type1="C01P" type2="C00P" type3="C05P" type4="O0IP"/>
+    <OplsImproperTerm k="21.966" type1="C00P" type2="C01P" type3="C02P" type4="O0HP"/>
+    <OplsImproperTerm k="5.23" type1="C0FP" type2="C0EP" type3="C0GP" type4="O0JP"/>
+    <OplsImproperTerm k="21.966" type1="C03M" type2="C02M" type3="C06M" type4="O05M"/>
+    <OplsImproperTerm k="5.23" type1="C0NM" type2="C0PM" type3="C0QM" type4="N0JM"/>
+    <OplsImproperTerm k="5.23" type1="C0RM" type2="C0PM" type3="C0VM" type4="H0UM"/>
+    <OplsImproperTerm k="5.23" type1="C0QM" type2="C0NM" type3="C0TM" type4="H0SM"/>
+    <OplsImproperTerm k="5.23" type1="C04M" type2="C02M" type3="C08M" type4="H07M"/>
+    <OplsImproperTerm k="5.23" type1="C0KM" type2="C0HM" type3="C0PM" type4="H0OM"/>
+    <OplsImproperTerm k="5.23" type1="C06M" type2="C03M" type3="C0AM" type4="H09M"/>
+    <OplsImproperTerm k="5.23" type1="C08M" type2="C04M" type3="C0AM" type4="C0BM"/>
+    <OplsImproperTerm k="5.23" type1="C0PM" type2="C0KM" type3="C0NM" type4="C0RM"/>
+    <OplsImproperTerm k="5.23" type1="C02M" type2="C03M" type3="C04M" type4="O01M"/>
+    <OplsImproperTerm k="5.23" type1="C0BM" type2="C08M" type3="C0EM" type4="H0DM"/>
+    <OplsImproperTerm k="5.23" type1="C0AM" type2="C06M" type3="C08M" type4="N0CM"/>
+    <OplsImproperTerm k="21.966" type1="C0TM" type2="C0QM" type3="C0VM" type4="O0WM"/>
+    <OplsImproperTerm k="5.23" type1="C0VM" type2="C0RM" type3="C0TM" type4="O0XM"/>
+    <OplsImproperTerm k="0.0" type1="N0CM" type2="C0AM" type3="C0EM" type4="H0FM"/>
+    <OplsImproperTerm k="0.0" type1="N0JM" type2="C0HM" type3="C0NM" type4="H0MM"/>
+  </ImproperTerms>
+  <PolarizableTerms>
+    <DrudeTerm alpha="0.0011220000000000002" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="CR"/>
+    <DrudeTerm alpha="0.0011220000000000002" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="CW"/>
+    <DrudeTerm alpha="0.0012079999999999999" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="NA"/>
+    <DrudeTerm alpha="0.001016" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C1"/>
+    <DrudeTerm alpha="0.001016" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C1A"/>
+    <DrudeTerm alpha="0.001016" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C2"/>
+    <DrudeTerm alpha="0.001016" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="CS"/>
+    <DrudeTerm alpha="0.001016" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="CT"/>
+    <DrudeTerm alpha="0.001016" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="CE"/>
+    <DrudeTerm alpha="0.0012079999999999999" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="N4"/>
+    <DrudeTerm alpha="0.001016" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="CBT"/>
+    <DrudeTerm alpha="0.0016979999999999999" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="NBT"/>
+    <DrudeTerm alpha="0.0011439999999999998" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="OBT"/>
+    <DrudeTerm alpha="0.001553" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="SBT"/>
+    <DrudeTerm alpha="0.000625" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="F1"/>
+    <DrudeTerm alpha="0.000625" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="FSI"/>
+    <DrudeTerm alpha="0.0016979999999999999" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="N3A"/>
+    <DrudeTerm alpha="0.0015869999999999999" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="CZA"/>
+    <DrudeTerm alpha="0.0016979999999999999" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="NZA"/>
+    <DrudeTerm alpha="0.000578" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="B"/>
+    <DrudeTerm alpha="0.000625" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="FB"/>
+    <DrudeTerm alpha="0.0011439999999999998" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="OTF"/>
+    <DrudeTerm alpha="0.0011439999999999998" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="O2"/>
+    <DrudeTerm alpha="0.001432" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="CO2"/>
+    <DrudeTerm alpha="0.001016" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="CTA"/>
+    <DrudeTerm alpha="0.001016" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="COL"/>
+    <DrudeTerm alpha="0.0011439999999999998" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="OH"/>
+    <DrudeTerm alpha="0.0034" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="Cl"/>
+    <DrudeTerm alpha="0.001016" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="CS4"/>
+    <DrudeTerm alpha="0.0011439999999999998" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="OC4"/>
+    <DrudeTerm alpha="0.001553" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="SO"/>
+    <DrudeTerm alpha="0.0011439999999999998" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="OS4"/>
+    <DrudeTerm alpha="0.0065" k="209200.0" mass="0.8" merge_alpha_H="0.000323" thole="2.6" type="MoS"/>
+    <DrudeTerm alpha="0.0033900000000000002" k="209200.0" mass="0.8" merge_alpha_H="0.000323" thole="2.6" type="SMo"/>
+    <DrudeTerm alpha="0.0008" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="O00D"/>
+    <DrudeTerm alpha="0.0013" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C01D"/>
+    <DrudeTerm alpha="0.00136" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C02D"/>
+    <DrudeTerm alpha="0.0014" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C03D"/>
+    <DrudeTerm alpha="0.00128" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C04D"/>
+    <DrudeTerm alpha="0.0012" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C05D"/>
+    <DrudeTerm alpha="0.0011" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="N06D"/>
+    <DrudeTerm alpha="0.0013700000000000001" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C08D"/>
+    <DrudeTerm alpha="0.0013700000000000001" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C09D"/>
+    <DrudeTerm alpha="0.0013" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0AD"/>
+    <DrudeTerm alpha="0.00082" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="O0BD"/>
+    <DrudeTerm alpha="0.00111" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="O00I"/>
+    <DrudeTerm alpha="0.0015300000000000001" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C01I"/>
+    <DrudeTerm alpha="0.00155" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C02I"/>
+    <DrudeTerm alpha="0.00155" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C03I"/>
+    <DrudeTerm alpha="0.00145" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C04I"/>
+    <DrudeTerm alpha="0.0012" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C05I"/>
+    <DrudeTerm alpha="0.0011799999999999998" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="N06I"/>
+    <DrudeTerm alpha="0.00149" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C08I"/>
+    <DrudeTerm alpha="0.00157" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C09I"/>
+    <DrudeTerm alpha="0.00155" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0AI"/>
+    <DrudeTerm alpha="0.0011" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="O0BI"/>
+    <DrudeTerm alpha="0.0017" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C00P"/>
+    <DrudeTerm alpha="0.00175" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C01P"/>
+    <DrudeTerm alpha="0.002" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C02P"/>
+    <DrudeTerm alpha="0.0020800000000000003" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C03P"/>
+    <DrudeTerm alpha="0.0020099999999999996" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C04P"/>
+    <DrudeTerm alpha="0.0019" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C05P"/>
+    <DrudeTerm alpha="0.00204" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C06P"/>
+    <DrudeTerm alpha="0.00279" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C07P"/>
+    <DrudeTerm alpha="0.00166" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="N08P"/>
+    <DrudeTerm alpha="0.0030499999999999998" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C09P"/>
+    <DrudeTerm alpha="0.00186" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0AP"/>
+    <DrudeTerm alpha="0.00202" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0BP"/>
+    <DrudeTerm alpha="0.002" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0CP"/>
+    <DrudeTerm alpha="0.0016799999999999999" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="N0DP"/>
+    <DrudeTerm alpha="0.00177" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0EP"/>
+    <DrudeTerm alpha="0.0015300000000000001" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0FP"/>
+    <DrudeTerm alpha="0.00161" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0GP"/>
+    <DrudeTerm alpha="0.00113" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="O0HP"/>
+    <DrudeTerm alpha="0.001" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="O0IP"/>
+    <DrudeTerm alpha="0.00093" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="O0JP"/>
+    <DrudeTerm alpha="0.00099" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="O0MP"/>
+    <DrudeTerm alpha="0.0017900000000000001" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0SP"/>
+    <DrudeTerm alpha="0.0009" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="O01M"/>
+    <DrudeTerm alpha="0.00148" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C02M"/>
+    <DrudeTerm alpha="0.0014399999999999999" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C03M"/>
+    <DrudeTerm alpha="0.0016799999999999999" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C04M"/>
+    <DrudeTerm alpha="0.00113" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="O05M"/>
+    <DrudeTerm alpha="0.00182" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C06M"/>
+    <DrudeTerm alpha="0.00175" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C08M"/>
+    <DrudeTerm alpha="0.0016899999999999999" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0AM"/>
+    <DrudeTerm alpha="0.00158" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0BM"/>
+    <DrudeTerm alpha="0.00146" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="N0CM"/>
+    <DrudeTerm alpha="0.0016799999999999999" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0EM"/>
+    <DrudeTerm alpha="0.0016799999999999999" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0HM"/>
+    <DrudeTerm alpha="0.00147" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="N0JM"/>
+    <DrudeTerm alpha="0.00161" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0KM"/>
+    <DrudeTerm alpha="0.0017" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0NM"/>
+    <DrudeTerm alpha="0.00177" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0PM"/>
+    <DrudeTerm alpha="0.00183" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0QM"/>
+    <DrudeTerm alpha="0.00174" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0RM"/>
+    <DrudeTerm alpha="0.00146" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0TM"/>
+    <DrudeTerm alpha="0.00152" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="C0VM"/>
+    <DrudeTerm alpha="0.0011200000000000001" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="O0WM"/>
+    <DrudeTerm alpha="0.00088" k="209200.0" mass="0.4" merge_alpha_H="0.000323" thole="2.6" type="O0XM"/>
+  </PolarizableTerms>
+</ForceFieldTerms>

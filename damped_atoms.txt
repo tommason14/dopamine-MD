@@ -1,0 +1,4 @@
+dhi  H07D H0CD H0HD 
+ind  H07I
+pezz2i H0KP H0TP H0NP H0WP 
+dthbind  H00M H0YM H0FM H0MM
