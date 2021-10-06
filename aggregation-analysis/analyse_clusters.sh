@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-FF=~/dopamine-MD/forcefield/ff
-MOLS=~/dopamine-MD/forcefield/mols
+FF=~/dopamine-MD/database/ff
+MOLS=~/dopamine-MD/database/mols
 SUP=~/dopamine-MD/aggregation-analysis
 
 average=${1:-1} # optionally, pass in number of steps to average over in plots
