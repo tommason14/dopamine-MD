@@ -44,6 +44,7 @@ ind          0      9.4527   17.02
 pezz2i       0      11.3343  41.92
 # dthbind = 5,5'-dihydroxy-1,1',2,2'-tetrahydro-6H,6'H-[2,2'-biindole]-6,6'-dione (the dimer I predicted)
 dthbind      0      1.7854  36.5235
+water        0      2.0249   1.382
 
 DIMERS
 # monomer1 monomer2 COM_distance/Å
@@ -125,6 +126,10 @@ pezz2i pezz2i 3.8000
 dthbind dhi 3.8000
 dthbind ind 3.8000
 dthbind dthbind 3.8000
+ind water 5.3463
+dhi water 5.3463
+pezz2i water 5.3463
+dthbind water 5.3463
 
 # added
 c2c1im      fsi	    3.50
@@ -200,6 +205,10 @@ pezz2i pezz2i 0.93785
 dthbind dhi 0.93785
 dthbind ind 0.93785
 dthbind dthbind 0.93785
+ind water 0.59793
+dhi water 0.59793
+pezz2i water 0.59793
+dthbind water 0.59793
 
 ATOMS
 # cation
@@ -222,3 +231,4 @@ ind O00I C01I C02I C03I C04I C05I N06I H07I C08I C09I C0AI O0BI H0CI H0DI H0EI H
 # Dimers
 pezz2i C00P C01P C02P C03P C04P C05P C06P C07P N08P C09P C0AP C0BP C0CP N0DP C0EP C0FP C0GP O0HP O0IP O0JP H0KP O0MP H0NP H0OP H0PP H0QP H0RP C0SP H0TP H0UP H0VP H0WP
 dthbind H00M O01M C02M C03M C04M O05M C06M H07M C08M H09M C0AM C0BM N0CM H0DM C0EM H0FM H0GM C0HM H0IM N0JM C0KM H0MM C0NM H0OM C0PM C0QM C0RM H0SM C0TM H0UM C0VM O0WM O0XM H0YM
+water OW HW
