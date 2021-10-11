@@ -118,7 +118,7 @@ def gen_simulation(
         print(ttforce.getEnergyFunction())
 
     # add restraints if required
-    if len(restrained_residues) > 0:
+    if restrained_residues is not None:
         restrained = [
             atom.idx
             for atom in psf.atom_list
