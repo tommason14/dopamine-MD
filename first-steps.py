@@ -196,10 +196,10 @@ def gen_simulation(
     # be used in another directory
     append_dcd = "dump.dcd" in os.listdir(".")
 
-    sim.reporters.append(
-        app.DCDReporter("dump.dcd", 10000, enforcePeriodicBox=False, append=append_dcd)
-    )
-    sim.reporters.append(oh.CheckpointReporter("cpt.cpt", 10000))
+    # sim.reporters.append(
+    #     app.DCDReporter("dump.dcd", 10000, enforcePeriodicBox=False, append=append_dcd)
+    # )
+    sim.reporters.append(oh.CheckpointReporter("cpt.cpt", 1000))
 
     append_gro = "dump.gro" in os.listdir(".")
     sim.reporters.append(
