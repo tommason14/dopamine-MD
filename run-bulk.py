@@ -8,12 +8,23 @@ import ommhelper as oh
 from ommhelper.unit import *
 import os
 
-parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-parser.add_argument("-n", "--nstep", type=int, default=int(1e6), help="number of steps")
-parser.add_argument(
-    "-t", "--temp", type=float, default=333, help="temperature in Kelvin"
-)
-parser.add_argument("-p", "--press", type=float, default=1, help="pressure in bar")
+parser = argparse.ArgumentParser(
+    formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+parser.add_argument("-n",
+                    "--nstep",
+                    type=int,
+                    default=int(1e6),
+                    help="number of steps")
+parser.add_argument("-t",
+                    "--temp",
+                    type=float,
+                    default=333,
+                    help="temperature in Kelvin")
+parser.add_argument("-p",
+                    "--press",
+                    type=float,
+                    default=1,
+                    help="pressure in bar")
 parser.add_argument("--dt", type=float, default=0.001, help="step size in ps")
 parser.add_argument(
     "--thermostat",
@@ -29,12 +40,15 @@ parser.add_argument(
     choices=["no", "iso", "semi-iso", "xyz", "xy", "z"],
     help="barostat",
 )
-parser.add_argument(
-    "--cos", type=float, default=0, help="cosine acceleration for viscosity calculation"
-)
-parser.add_argument(
-    "-f", "--field", help="Electric field strength in V/nm", default=0, type=float
-)
+parser.add_argument("--cos",
+                    type=float,
+                    default=0,
+                    help="cosine acceleration for viscosity calculation")
+parser.add_argument("-f",
+                    "--field",
+                    help="Electric field strength in V/nm",
+                    default=0,
+                    type=float)
 parser.add_argument("--gro", type=str, default="conf.gro", help="gro file")
 parser.add_argument("--psf", type=str, default="topol.psf", help="psf file")
 parser.add_argument("--prm", type=str, default="ff.prm", help="prm file")
@@ -56,10 +70,10 @@ parser.add_argument(
 parser.add_argument(
     "-damp",
     "--ttdampatoms",
-    help=(
-        "Atom types to apply TT damping to. Pass a space-separated list. Default = HO HN. "
-        "If using SWM4-NDP water, do not dampen HW as this gives densities of 0.9 g/cm3"
-    ),
+    help=
+    ("Atom types to apply TT damping to. Pass a space-separated list. Default = HO HN. "
+     "If using SWM4-NDP water, do not dampen HW as this gives densities of 0.9 g/cm3"
+     ),
     default=["HO", "HN"],
     nargs="+",
 )
@@ -90,7 +104,8 @@ def gen_simulation(
 ):
     print("Building system...")
     gro = oh.GroFile(gro_file)
-    psf = oh.OplsPsfFile(psf_file, periodicBoxVectors=gro.getPeriodicBoxVectors())
+    psf = oh.OplsPsfFile(psf_file,
+                         periodicBoxVectors=gro.getPeriodicBoxVectors())
     prm = app.CharmmParameterSet(prm_file)
     system = psf.createSystem(
         prm,
@@ -104,9 +119,7 @@ def gen_simulation(
 
     ### apply TT damping for CLPol force field
     donors = [
-        atom.idx
-        for atom in psf.atom_list
-        for x in ttdampatoms
+        atom.idx for atom in psf.atom_list for x in ttdampatoms
         if atom.attype.startswith(x)
     ]
 
@@ -120,39 +133,42 @@ def gen_simulation(
     # add restraints if required
     if restrained_residues is not None:
         restrained = [
-            atom.idx
-            for atom in psf.atom_list
-            for x in restrained_residues
+            atom.idx for atom in psf.atom_list for x in restrained_residues
             if atom.residue.resname == x
         ]
         # restrain motion in all three dimensions
-        print(f"Restraining all atoms in the following residues: {restrained_residues}")
+        print(
+            f"Restraining all atoms in the following residues: {restrained_residues}"
+        )
         oh.spring_self(
             system,
             gro.positions.value_in_unit(nm),
             restrained,
-            [5.0, 5.0, 5.0] * kcal_mol / angstrom ** 2,
+            [5.0, 5.0, 5.0] * kcal_mol / angstrom**2,
         )
     print("Initializing simulation...")
     if tcoupl == "langevin":
         if is_drude:
             print("Drude Langevin thermostat: 5.0 /ps, 20 /ps")
-            integrator = mm.DrudeLangevinIntegrator(
-                T * kelvin, 5.0 / ps, 1 * kelvin, 20 / ps, dt * ps
-            )
+            integrator = mm.DrudeLangevinIntegrator(T * kelvin, 5.0 / ps,
+                                                    1 * kelvin, 20 / ps,
+                                                    dt * ps)
             integrator.setMaxDrudeDistance(0.02 * nm)
         else:
             print("Langevin thermostat: 1.0 /ps")
             integrator = mm.LangevinIntegrator(T * kelvin, 1.0 / ps, dt * ps)
     elif tcoupl == "nose-hoover":
         if is_drude:
-            print("Drude temperature-grouped Nose-Hoover thermostat: 10 /ps, 40 /ps")
+            print(
+                "Drude temperature-grouped Nose-Hoover thermostat: 10 /ps, 40 /ps"
+            )
         else:
             print("Nose-Hoover thermostat: 10 /ps")
         from velocityverletplugin import VVIntegrator
 
         print("using nose-hoover")
-        integrator = VVIntegrator(T * kelvin, 10 / ps, 1 * kelvin, 40 / ps, dt * ps)
+        integrator = VVIntegrator(T * kelvin, 10 / ps, 1 * kelvin, 40 / ps,
+                                  dt * ps)
         integrator.setUseMiddleScheme(True)
         integrator.setMaxDrudeDistance(0.02 * nm)
     else:
@@ -165,7 +181,8 @@ def gen_simulation(
         try:
             integrator.setCosAcceleration(cos)
         except:
-            raise Exception("Cosine acceleration not compatible with this integrator")
+            raise Exception(
+                "Cosine acceleration not compatible with this integrator")
 
     if field != 0:
         try:
@@ -175,18 +192,18 @@ def gen_simulation(
             # apply field to all atoms
             atoms = [a.index for a in psf.topology.atoms()]
             # field applied in y-direction
-            elecfield = oh.electric_field(system, atoms, [0, field, 0])
+            oh.electric_field(system, atoms, [0, field, 0])
         except:
             raise Exception("Electric field cannot be used with this setup")
 
     _platform = mm.Platform.getPlatformByName("CUDA")
     _properties = {"CudaPrecision": "mixed"}
-    sim = app.Simulation(psf.topology, system, integrator, _platform, _properties)
+    sim = app.Simulation(psf.topology, system, integrator, _platform,
+                         _properties)
     if restart:
         sim.loadCheckpoint(restart)
-        sim.currentStep = (
-            round(sim.context.getState().getTime().value_in_unit(ps) / dt / 10) * 10
-        )
+        sim.currentStep = (round(
+            sim.context.getState().getTime().value_in_unit(ps) / dt / 10) * 10)
         sim.context.setTime(sim.currentStep * dt)
     else:
         sim.context.setPositions(gro.positions)
@@ -197,30 +214,32 @@ def gen_simulation(
     append_dcd = "dump.dcd" in os.listdir(".")
 
     sim.reporters.append(
-        app.DCDReporter("dump.dcd", 10000, enforcePeriodicBox=False, append=append_dcd)
-    )
+        app.DCDReporter("dump.dcd",
+                        10000,
+                        enforcePeriodicBox=False,
+                        append=append_dcd))
     sim.reporters.append(oh.CheckpointReporter("cpt.cpt", 10000))
 
     append_gro = "dump.gro" in os.listdir(".")
     sim.reporters.append(
-        oh.GroReporter("dump.gro", 1000, logarithm=True, append=append_gro)
-    )
+        oh.GroReporter("dump.gro", 1000, logarithm=True, append=append_gro))
     # if appending to dumps, also append here
     sim.reporters.append(
-        oh.StateDataReporter(
-            sys.stdout, 1000, box=False, volume=True, append=append_dcd
-        )
-    )
+        oh.StateDataReporter(sys.stdout,
+                             1000,
+                             box=False,
+                             volume=True,
+                             append=append_dcd))
     if is_drude:
         append_drude = "T_drude.txt" in os.listdir(".")
         sim.reporters.append(
-            oh.DrudeTemperatureReporter("T_drude.txt", 10000, append=append_drude)
-        )
+            oh.DrudeTemperatureReporter("T_drude.txt",
+                                        10000,
+                                        append=append_drude))
     if cos != 0:
         append_cos = "viscosity.txt" in os.listdir(".")
         sim.reporters.append(
-            oh.ViscosityReporter("viscosity.txt", 1000, append=append_cos)
-        )
+            oh.ViscosityReporter("viscosity.txt", 1000, append=append_cos))
 
     return sim
 
