@@ -118,7 +118,7 @@ def gen_simulation(
         print(ttforce.getEnergyFunction())
 
     # add restraints if required
-    if len(restrained_residues) > 0:
+    if restrained_residues is not None:
         restrained = [
             atom.idx
             for atom in psf.atom_list
@@ -175,7 +175,7 @@ def gen_simulation(
             # apply field to all atoms
             atoms = [a.index for a in psf.topology.atoms()]
             # field applied in y-direction
-            elecfield = oh.electric_field(system, atoms, [0, field, 0])
+            oh.electric_field(system, atoms, [0, field, 0])
         except:
             raise Exception("Electric field cannot be used with this setup")
 
@@ -197,8 +197,10 @@ def gen_simulation(
     append_dcd = "dump.dcd" in os.listdir(".")
 
     # sim.reporters.append(
-    #     app.DCDReporter("dump.dcd", 10000, enforcePeriodicBox=False, append=append_dcd)
-    # )
+    # app.DCDReporter("dump.dcd",
+    #                 1000,
+    #                 enforcePeriodicBox=False,
+    #                 append=append_dcd))
     sim.reporters.append(oh.CheckpointReporter("cpt.cpt", 1000))
 
     append_gro = "dump.gro" in os.listdir(".")
@@ -211,16 +213,16 @@ def gen_simulation(
             sys.stdout, 1000, box=False, volume=True, append=append_dcd
         )
     )
-    if is_drude:
-        append_drude = "T_drude.txt" in os.listdir(".")
-        sim.reporters.append(
-            oh.DrudeTemperatureReporter("T_drude.txt", 10000, append=append_drude)
-        )
-    if cos != 0:
-        append_cos = "viscosity.txt" in os.listdir(".")
-        sim.reporters.append(
-            oh.ViscosityReporter("viscosity.txt", 1000, append=append_cos)
-        )
+    # if is_drude:
+    #     append_drude = "T_drude.txt" in os.listdir(".")
+    #     sim.reporters.append(
+    #         oh.DrudeTemperatureReporter("T_drude.txt",
+    #                                     10000,
+    #                                     append=append_drude))
+    # if cos != 0:
+    #     append_cos = "viscosity.txt" in os.listdir(".")
+    #     sim.reporters.append(
+    #         oh.ViscosityReporter("viscosity.txt", 1000, append=append_cos))
 
     return sim
 
