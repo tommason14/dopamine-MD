@@ -1,4 +1,4 @@
-dhi  H07D H0CD H0HD 
-ind  H07I
-pezz2i H0KP H0TP H0NP H0WP 
-dthbind  H00M H0YM H0FM H0MM
+dhi  N-H: H07D O-H: H0CD H0HD 
+ind  N-H: H07I
+pezz2i N-H: H0NP H0WP O-H: H0KP H0TP 
+dthbind N-H: H0FM H0MM O-H: H00M H0YM 
