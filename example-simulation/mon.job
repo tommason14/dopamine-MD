@@ -1,0 +1,32 @@
+#!/bin/bash
+#SBATCH --ntasks=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem=4G
+#SBATCH --gres=gpu:P100:1
+#SBATCH --time=96:00:00
+#SBATCH --partition=gpu
+#SBATCH --qos=partner
+
+module purge
+module load openmm-velocity-verlet/7.4
+
+cwd="$(pwd)"
+gro="$cwd/build/conf.gro"
+psf="$cwd/build/topol.psf"
+prm="$cwd/build/ff.prm"
+
+INIT=~/dopamine-MD/first-steps.py
+OMM=~/dopamine-MD/run-bulk.py
+damp="H0CD H0HD"
+
+mkdir npt
+cd npt
+time python3 $INIT --gro $gro --psf $psf --prm $prm -t 300 --thermostat nose-hoover --barostat iso -p 1 -n 4_000 -damp ${damp[@]} >& init.log
+time python3 $OMM --gro $gro --psf $psf --prm $prm -t 300 --thermostat nose-hoover --barostat iso -p 1 -n 4_996_000 --cpt cpt.cpt_4000 -damp ${damp[@]} >& npt.log
+
+if [[ -f cpt.cpt_5000000 ]]
+then
+  mkdir ../nvt
+  cd ../nvt
+  time python3 $OMM --gro $gro --psf $psf --prm $prm -t 300 --thermostat nose-hoover --barostat no -n 200_000_000 --cpt ../npt/cpt.cpt_5000000 -damp ${damp[@]} >& nvt.log
+fi

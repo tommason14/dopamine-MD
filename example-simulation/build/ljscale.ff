@@ -1,4 +1,4 @@
-SCALE_SIGMA 0.985
+SCALE_SIGMA 0.975
 
 MONOMERS
 # monomer charge dipole_moment polarizability
@@ -42,7 +42,7 @@ nmp          0      3.7301
 dhi          0      3.4446  15.291
 ind          0      9.4527   17.02
 pezz2i       0      11.3343  41.92
-# dthbind = 5,5'-dihydroxy-1,1',2,2'-tetrahydro-6H,6'H-[2,2'-biindole]-6,6'-dione
+# dthbind = 5,5'-dihydroxy-1,1',2,2'-tetrahydro-6H,6'H-[2,2'-biindole]-6,6'-dione (the dimer I predicted)
 dthbind      0      1.7854  36.5235
 water        0      2.0249   1.382
 
