@@ -29,7 +29,7 @@ extract_selection.py -sel 'resname ind' ../build/conf.gro ../nvt/dump.dcd -o dop
 
 # most gromacs analysis tools require a binary file that is normally used when running a simulation,
 # a .tpr file (portable run file)
-# I've added a -maxwarn 1 because gromacs gives a warning when dealing with drude particles
+# maxwarn 1 added because gromacs gives a warning when dealing with drude particles
 
 gmx_mpi grompp -f $SUP/em.mdp -c dop.gro -p dop.top -o dop.tpr -maxwarn 1
 
@@ -48,7 +48,6 @@ done
 #  Extract data and plot graphs  #
 ##################################
 
-# For this example, I only took the first 100 steps of the nvt run.
 # When looking at the whole run, you'll probably want to create a rolling mean over time as the number of clusters oscillates a lot.
 # Just change this 1 to 50 or 100 to average over every 50 or 100 steps
 echo "Plotting data"

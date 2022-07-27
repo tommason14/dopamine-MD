@@ -51,12 +51,6 @@ def read_args():
     parser.add_argument(
         "-s", "--scale", help="File including scaling factors for the CL&Pol forcefield"
     )
-    parser.add_argument(
-        "-o",
-        "--output",
-        help="Name of topology file to create, default = topol.top",
-        default="topol.top",
-    )
 
     return parser.parse_args()
 
@@ -110,7 +104,9 @@ def main():
         virtual_sites=args.virtuals,
         drudes=args.drudes,
     )
-    system.export_gromacs(gro_out=None, top_out=args.output, mdp_out=None)
+
+    system.export_gromacs(gro_out="conf.gro", top_out=None, mdp_out=None)
+    system.export_charmm(psf_out="topol.psf", prm_out="ff.prm", pdb_out=None)
 
 
 if __name__ == "__main__":
